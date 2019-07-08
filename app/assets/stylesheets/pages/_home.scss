@@ -27,8 +27,8 @@ li {
 .banner {
   background-size: cover;
   background-position: center;
-  padding: 180px 0;
-  background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);
+  padding: 130px 0;
+  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);
 }
 .banner p {
   color: white;
@@ -36,11 +36,32 @@ li {
 .banner-container {
   text-align: center;
   @media (min-width: 768px) {
-    max-width: 50%;
+    max-width: 40%;
   }
   @media (max-width: 767px) {
-    max-width: 60%;
+    max-width: 70%;
   }
+}
+.homepage-logo {
+  width: 250px;
+  @media (max-width: 565px) {
+    width: 180px;
+  }
+}
+.banner-sub-text {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 12px;
+  font-family: "Montserrat";
+  @media (max-width: 565px) {
+    font-size: 16px;
+    letter-spacing: 0.8px;
+  }
+}
+.banner-elevator-text {
+  letter-spacing: 0.7px;
+  margin-top: 32px;
+  font-family: "Open Sans";
 }
 .homepage-heading {
   margin: 80px 0;

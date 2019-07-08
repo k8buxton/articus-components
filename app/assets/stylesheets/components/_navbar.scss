@@ -23,15 +23,20 @@ li.dropdown:hover > .dropdown-menu {
 .navbar-nav .dropdown-item {
   color: white;
   font-size: 12px;
-  letter-spacing: 0.7px;
+  letter-spacing: 0.8px;
   font-weight: 100;
   transition: .2s ease-in-out;
-  padding: 0.3rem 1.4rem;
+  text-transform: uppercase;
+  padding: 0.5rem 2rem 0.5rem 1.4rem;
+  @media (max-width: 991px) {
+    padding: 0.6rem 2rem;
+    border-top: 0.5px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255,255,255,.5);
+  }
   &:hover {
-    background-color: #093031;
+    background-color: #124348;
     color: #DDDDDD;
     transition: .2s ease-in-out;
-    text-decoration: underline;
   }
 }
 .navbar-expand-lg .navbar-nav .dropdown-menu {
@@ -43,10 +48,22 @@ li.dropdown:hover > .dropdown-menu {
     left: -6px;
   }
 }
+.nav-link p {
+  flex-grow: 1;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  @media (max-width: 991px) {
+    padding: 10px 0;
+  }
+}
+.nav-link i {
+  border-left: 0.5px solid rgba(255,255,255,0.5);
+}
 .navbar-expand-lg .navbar-nav .nav-link {
   color: white !important;
   letter-spacing: 0.7px;
-  padding: 14px;
+  padding: 5px 8px 5px 14px;
   font-size: 12px;
   font-weight: 100;
   transition: .2s ease-in-out;
@@ -54,6 +71,7 @@ li.dropdown:hover > .dropdown-menu {
     color: #DDDDDD;
   }
   @media (min-width: 992px) {
+    padding: 14px;
     padding: 12px 16px;
     text-transform: uppercase;
   }
@@ -63,22 +81,22 @@ li.dropdown:hover > .dropdown-menu {
 }
 .navbar-nav li:first-child {
   @media (max-width: 992px) {
-    border-top: none;
+    // border-top: none;
   }
 }
 .navbar-nav li {
   @media (max-width: 992px) {
     border-top: 0.5px solid rgba(255,255,255,0.5);
     // padding: 14px;
-
   }
 }
 .nav-item i {
-  margin-top: 6px;
-  font-size: 8px;
+  padding-top: 12px;
+  font-size: 15px;
 }
 .dropdown-menu {
-  padding: 0 0 1rem 0;
+  // padding: 0 0 1rem 0;
+  padding: 0;
   margin-top: -1px;
   border: none;
 }
@@ -86,14 +104,6 @@ li.dropdown:hover > .dropdown-menu {
   border-color: #093031;
   outline: 0;
 }
-.rotate-mortgage{
-    -moz-transition: all 0.4s linear;
-    -webkit-transition: all 0.4s linear;
-    transition: all 0.4s linear;
-}
-.rotate-mortgage.down{
-    -ms-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
+.cursor-pointer:hover {
+ cursor: pointer;
 }
