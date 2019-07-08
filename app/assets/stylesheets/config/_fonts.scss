@@ -5,12 +5,9 @@
 $body-font: "Open Sans", "Helvetica", "sans-serif";
 $headers-font: "Raleway", "Helvetica", "sans-serif";
 
-// To use a font file (.woff) uncomment following lines
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
-//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-//        font-url('FontFile.woff') format('woff'),
-//        font-url('FontFile.ttf') format('truetype')
-// }
-// $my-font: "Font Name";
+@font-face {
+  font-family: "tiempos_headline";
+  src: font-url('config/TiemposHeadlineWeb-Regular.eot') format("embedded-opentype");
+  src: font-url('config/TiemposHeadlineWeb-Regular.woff') format("woff"),
+       font-url('config/TiemposHeadlineWeb-Regular.woff2') format("woff2")
+}
