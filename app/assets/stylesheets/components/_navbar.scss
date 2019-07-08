@@ -26,6 +26,7 @@ li.dropdown:hover > .dropdown-menu {
   letter-spacing: 0.7px;
   font-weight: 100;
   transition: .2s ease-in-out;
+  padding: 0.3rem 1.4rem;
   &:hover {
     background-color: #093031;
     color: #DDDDDD;
@@ -35,9 +36,8 @@ li.dropdown:hover > .dropdown-menu {
 }
 .navbar-expand-lg .navbar-nav .dropdown-menu {
   @media (min-width: 992px) {
-    padding-bottom: 14px;
-    left: -13px;
-    // padding-right: 1000px;
+    padding: 12px 0;
+    left: -8px;
   }
     @media (min-width: 1200px) {
     left: -6px;
@@ -47,6 +47,7 @@ li.dropdown:hover > .dropdown-menu {
   color: white !important;
   letter-spacing: 0.7px;
   padding: 14px;
+  font-size: 12px;
   font-weight: 100;
   transition: .2s ease-in-out;
   &:hover {

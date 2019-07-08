@@ -1,5 +1,8 @@
 .footer {
   background-color: #DDDDDD;
+  p {
+    font-weight: 400;
+  }
   button {
     border: 0.5px solid rgba(0,0,0,.6);
     background-color: #DDDDDD;
@@ -9,13 +12,14 @@
     color: white;
     border: 0.5px solid #15393B;
   }
-  p {
-    font-size: 10px;
-  }
+}
+.footer-padding {
+  padding: 64px 0;
 }
 .footer-form-header {
-  font-size: 14px;
-  font-family: Open Sans;
+  @media (min-width: 576px) {
+    margin-bottom: 8px;
+  }
   @media (max-width: 575px) {
     width: 75%;
     text-align: center;
@@ -33,8 +37,13 @@
   padding: 8px;
 }
 .footer-margin {
-  margin: auto;
   @media (max-width: 575px) {
     margin-bottom: 50px;
+  }
+}
+.footer-newsletter {
+  font-size: 10px;
+  @media (max-width: 575px) {
+    text-align: justify;
   }
 }
