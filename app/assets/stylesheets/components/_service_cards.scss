@@ -1,0 +1,77 @@
+.services-container {
+  @media (max-width: 575px) {
+    padding: 0 20px;
+  }
+}
+.service-card {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin: 0 auto 32px auto;
+}
+.service-card button {
+  border: 0.5px solid rgba(0,0,0,.6);
+  background-color: rgba(255,255,255,.3);
+  color: white;
+  border: 0.5px solid rgba(255,255,255,.8);
+}
+.service-card:hover button {
+  background-color: rgba(255,255,255,1);
+  color: black;
+  border: 0.5px solid white;
+}
+a:hover {
+  text-decoration: none;
+}
+.service-card p {
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  @media (max-width: 575px) {
+    margin-top: 104px;
+    margin-bottom: 72px;
+    font-size: 20px;
+  }
+  @media (min-width: 576px) and (max-width: 767px) {
+    margin-top: 64px;
+    margin-bottom: 32px;
+    font-size: 18px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    margin-top: 38px;
+    margin-bottom: 18px;
+    font-size: 16px;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+  @media (min-width: 1200px) {
+    margin-top: 88px;
+    margin-bottom: 44px;
+    font-size: 18px;
+  }
+}
+.service-card-padding {
+  @media (max-width: 575px) {
+    padding: 44px 0;
+  }
+  @media (min-width: 576px) and (max-width: 767px) {
+    padding: 24px 0;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    padding: 24px 0;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    padding: 36px 0;
+  }
+  @media (min-width: 1200px) {
+    padding: 40px 0;
+  }
+}
+
