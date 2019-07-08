@@ -30,14 +30,16 @@ body {
 }
 .homepage-heading h2 {
     margin-top: 30px;
-    font-size: 24px;
+    font-size: 26px;
     text-align: center;
+    font-family: tiempos_headline;
+    letter-spacing: 0.5px;
 }
 .homepage-heading h2.back-line {
     position: relative;
     z-index: 1;
   &:before {
-      border-top: 1px solid #dfdfdf;
+      border-top: 1px solid rgba(0,0,0,.3);
       content:"";
       margin: 0 auto;
       position: absolute;
@@ -45,8 +47,8 @@ body {
       z-index: -1;
   }
   span {
-      background: #fff;
-      padding: 0 15px;
+      background: #F6F6F6;
+      padding: 0 10px;
   }
 }
 .heading {

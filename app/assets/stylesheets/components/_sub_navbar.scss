@@ -2,10 +2,9 @@
   z-index: 1000;
 }
 .navbar-logo {
-  width: 160px;
-  // margin-left: 24px;
+  width: 140px;
   @media (min-width: 1200px) {
-    width: 200px;
+    width: 180px;
   }
 }
 .sub-nav ul {
@@ -14,7 +13,8 @@
 }
 .sub-nav {
   background-color: #F6F6F6;
-  width: 100%
+  width: 100%;
+  padding-bottom: 1px;
 }
 .sub-nav button {
   font-size: 10px;
@@ -26,11 +26,17 @@
   letter-spacing: 0.4px;
   margin-right: 40px;
   outline: none;
-  border: none;
+  border: 0.5px solid rgba(9,48,49,0);
   box-shadow: 1px 1px 4px rgba(0,0,0,.4);
   text-transform: uppercase;
+  transition: .2s ease-in-out;
   button:focus {
    outline: none;
+  }
+  &:hover {
+  background-color: white;
+  color: #093031;
+  border: 0.5px solid rgba(9,48,49,.7);
   }
 }
 .sub-nav li {
