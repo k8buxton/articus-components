@@ -7,7 +7,7 @@
       <li>Introducers</li>
       <li>Contact Us</li>
     </ul>
-    <div class="d-flex my-3">
+    <div class="d-flex mt-3 mb-4">
       <div style="flex-grow: 1;">
         <%= link_to "#" do %>
           <%= image_tag "articus-finance-logo-black.png", class: "navbar-logo ml-4" %>
@@ -25,14 +25,15 @@
     <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item dropdown">
-          <a class="nav-link nav-link-mortgage dropdown-toggle d-flex no-border" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Mortgages <i class="rotate-mortgage fas fa-chevron-right d-block ml-1 d-lg-none"></i>
+        <li class="nav-item ">
+          <a class="nav-link dropdown-toggle d-flex no-border" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <p>Mortgages</p>
+            <i class="fas fa-chevron-down d-block mr-3 pl-4 d-lg-none"></i>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item d-block d-lg-none" href="#">Mortgages Home </a>
             <a class="dropdown-item" href="#">Purchase </a>
             <a class="dropdown-item" href="#">Remortgage</a>
             <a class="dropdown-item" href="#">Interest Only</a>
@@ -43,10 +44,12 @@
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link nav-link-buy-to-let dropdown-toggle d-flex" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Buy-to-let <i class="rotate-buy-to-let fas fa-chevron-right d-block ml-1 d-lg-none"></i>
+          <a class="nav-link dropdown-toggle d-flex" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <p>Buy-to-let</p>
+            <i class="fas fa-chevron-down mr-3 pl-4 d-block d-lg-none"></i>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item d-block d-lg-none" href="#">Buy-to-let Home</a>
             <a class="dropdown-item" href="#">Purchase</a>
             <a class="dropdown-item" href="#">Remortgage</a>
             <a class="dropdown-item" href="#">Limited Company</a>
@@ -57,10 +60,12 @@
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link nav-link-bridging dropdown-toggle d-flex" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Bridging <i class="rotate-bridging fas fa-chevron-right d-block ml-1 d-lg-none"></i>
+          <a class="nav-link dropdown-toggle d-flex" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <p>Bridging</p>
+            <i class="fas fa-chevron-down mr-3 pl-4 d-block d-lg-none"></i>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item d-block d-lg-none" href="#">Bridging Home</a>
             <a class="dropdown-item" href="#">Residential</a>
             <a class="dropdown-item" href="#">Non-Regulated</a>
             <a class="dropdown-item" href="#">Second Charge</a>
@@ -68,24 +73,52 @@
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link nav-link-insurance dropdown-toggle d-flex" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Insurance <i class="rotate-insurance fas fa-chevron-right d-block ml-1 d-lg-none"></i>
+          <a class="nav-link dropdown-toggle d-flex" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <p>Insurance</p>
+            <i class="fas fa-chevron-down mr-3 pl-4 d-block d-lg-none"></i>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item d-block d-lg-none" href="#">Insurance Home</a>
             <a class="dropdown-item" href="#">Life Insurance</a>
             <a class="dropdown-item" href="#">Income Protection</a>
             <a class="dropdown-item" href="#">Buildings and Contents</a>
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link nav-link-insight dropdown-toggle d-flex" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Insight & Opinion <i class="rotate-insight fas fa-chevron-right d-block ml-1 d-lg-none"></i>
+          <a class="nav-link dropdown-toggle d-flex" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <p>Insight & Opinion</p>
+            <i class="fas fa-chevron-down mr-3 pl-4 d-block d-lg-none"></i>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="#">Guides</a>
             <a class="dropdown-item" href="#">Case Studies</a>
             <a class="dropdown-item" href="#">Blog</a>
           </div>
+        </li>
+        <li class="nav-item dropdown cursor-pointer d-block d-lg-none">
+          <a class="nav-link dropdown-toggle d-flex" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <p>About Us</p>
+          </a>
+        </li>
+        <li class="nav-item dropdown cursor-pointer d-block d-lg-none">
+          <a class="nav-link dropdown-toggle d-flex" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <p>The Team</p>
+          </a>
+        </li>
+        <li class="nav-item dropdown cursor-pointer d-block d-lg-none">
+          <a class="nav-link dropdown-toggle d-flex" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <p>Careers</p>
+          </a>
+        </li>
+        <li class="nav-item dropdown cursor-pointer d-block d-lg-none">
+          <a class="nav-link dropdown-toggle d-flex" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <p>Introducers</p>
+          </a>
+        </li>
+        <li class="nav-item dropdown cursor-pointer d-block d-lg-none">
+          <a class="nav-link dropdown-toggle d-flex" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <p>Contact Us</p>
+          </a>
         </li>
       </ul>
     </div>
