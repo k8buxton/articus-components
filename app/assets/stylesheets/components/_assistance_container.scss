@@ -1,0 +1,24 @@
+.assistance-container {
+  text-align:center;
+  background-color: #093031;
+  max-width: none;
+  padding: 75px 0;
+  color: white;
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-weight: 100;
+    font-size: 14px;
+  }
+  button {
+    background-color: rgba(255,255,255,.3);
+    color: white;
+    border: 0.5px solid rgba(255,255,255,.7);
+  }
+  button:hover {
+    background-color: rgba(255,255,255,1);
+    color: black;
+    border: 0.5px solid white;
+  }
+}

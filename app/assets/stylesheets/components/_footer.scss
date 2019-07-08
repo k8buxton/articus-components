@@ -1,0 +1,40 @@
+.footer {
+  background-color: #DDDDDD;
+  button {
+    border: 0.5px solid rgba(0,0,0,.6);
+    background-color: #DDDDDD;
+  }
+  button:hover {
+    background-color: #15393B;
+    color: white;
+    border: 0.5px solid #15393B;
+  }
+  p {
+    font-size: 10px;
+  }
+}
+.footer-form-header {
+  font-size: 14px;
+  font-family: Open Sans;
+  @media (max-width: 575px) {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto 12px auto;
+  }
+}
+.footer .form-control {
+  font-size: 12px;
+}
+.footer .fab {
+  color: white;
+  background-color: #15393B;
+  border-radius: 16px;
+  font-size: 16px;
+  padding: 8px;
+}
+.footer-margin {
+  margin: auto;
+  @media (max-width: 575px) {
+    margin-bottom: 50px;
+  }
+}
