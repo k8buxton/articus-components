@@ -43,6 +43,9 @@
   button {
     padding: 10px 20px;
     border: 0.5px solid rgba(0,0,0,.6);
+    @media (max-width: 575px) {
+      padding: 10px 13px;
+    }
   }
   button:hover {
     background-color: #15393B;
