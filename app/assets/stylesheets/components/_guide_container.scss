@@ -1,22 +1,21 @@
 .guide-home-container {
   max-width: none;
   padding: 0 64px;
-  // @media (max-width: 575px) {
-  //   padding: 0 32px;
-  // }
   @media (min-width: 992px) {
     padding: 0 100px;
   }
 }
 .guide-padding {
-  // @media (max-width: 575px) {
-  //   padding: 0 20px;
-  // }
   @media (min-width: 576px) and (max-width: 767px) {
     padding: 0 48px 20px 48px;
   }
   @media (min-width: 768px) {
     padding: 0 32px;
+  }
+}
+.service-guide-padding {
+  @media (min-width: 992px) {
+    padding: 0 48px 0 24px;
   }
 }
 .guide-card {

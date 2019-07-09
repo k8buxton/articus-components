@@ -17,9 +17,12 @@
   background-size: cover;
   background-position: center;
 }
-.expertise-padding {
+.expertise-text-box {
   padding: 40px 32px;
   @media (min-width: 767px) {
     padding: 72px 48px 72px 32px;
+  }
+  @media (max-width: 575px) {
+    text-align: center;
   }
 }

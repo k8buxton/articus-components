@@ -15,6 +15,9 @@
 }
 .footer-padding {
   padding: 64px 0;
+  @media (min-width: 992px) {
+    padding: 80px 0;
+  }
 }
 .footer-form-header {
   @media (min-width: 576px) {

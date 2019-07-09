@@ -3,7 +3,7 @@
     padding: 0 20px;
   }
 }
-.service-card {
+.card {
   background-size: cover;
   background-position: center;
   display: flex;
@@ -12,25 +12,24 @@
   text-align: center;
   color: white;
   margin: 0 auto 32px auto;
-}
-.service-card button {
+  button {
   border: 0.5px solid rgba(0,0,0,.6);
   background-color: rgba(255,255,255,.3);
   color: white;
   border: 0.5px solid rgba(255,255,255,.8);
-}
-.service-card:hover button {
-  background-color: rgba(255,255,255,1);
-  color: black;
-  border: 0.5px solid white;
-}
-a:hover {
-  text-decoration: none;
-}
-.service-card p {
+  }
+  &:hover button {
+    background-color: rgba(255,255,255,1);
+    color: black;
+    border: 0.5px solid white;
+  }
+  p {
   font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 1.5px;
+  }
+}
+.service-card p {
   @media (max-width: 575px) {
     margin-top: 104px;
     margin-bottom: 72px;
@@ -44,7 +43,7 @@ a:hover {
   @media (min-width: 768px) and (max-width: 991px) {
     margin-top: 38px;
     margin-bottom: 18px;
-    font-size: 16px;
+    font-size: 13px;
   }
   @media (min-width: 992px) and (max-width: 1199px) {
     margin-top: 60px;
@@ -57,7 +56,7 @@ a:hover {
     font-size: 18px;
   }
 }
-.service-card-padding {
+.card-padding {
   @media (max-width: 575px) {
     padding: 44px 0;
   }
