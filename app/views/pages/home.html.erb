@@ -14,9 +14,9 @@
 <div class="container services-container">
   <div class="row">
     <div class="col-12 col-sm-6 col-md-3">
-      <a href="https://spf.co.uk/services/mortgages/">
-        <div class="service-card" style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);">
-          <div class="service-card-padding">
+      <a href="/service_home">
+        <div class="card service-card" style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);">
+          <div class="card-padding">
             <p>Mortgages</p>
             <button class="home-btn">Read More</button>
           </div>
@@ -25,8 +25,8 @@
     </div>
     <div class="col-12 col-sm-6 col-md-3">
       <a href="https://spf.co.uk/services/mortgages/">
-        <div class="service-card" style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);">
-          <div class="service-card-padding">
+        <div class="card service-card" style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);">
+          <div class="card-padding">
             <p>Buy-to-let</p>
             <button class="home-btn">Read More</button>
           </div>
@@ -35,8 +35,8 @@
     </div>
     <div class="col-12 col-sm-6 col-md-3">
       <a href="https://spf.co.uk/services/mortgages/">
-        <div class="service-card" style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);">
-          <div class="service-card-padding">
+        <div class="card service-card" style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);">
+          <div class="card-padding">
             <p>Bridging</p>
             <button class="home-btn">Read More</button>
           </div>
@@ -45,8 +45,8 @@
     </div>
     <div class="col-12 col-sm-6 col-md-3">
       <a href="https://spf.co.uk/services/mortgages/">
-        <div class="service-card" style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);">
-          <div class="service-card-padding">
+        <div class="card service-card" style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);">
+          <div class="card-padding">
             <p>Insurance</p>
             <button class="home-btn">Read More</button>
           </div>
@@ -108,68 +108,23 @@
 
 <!-- Proven Expertise Container -->
 
-<div class="container proven-expertise d-none d-sm-block">
+<div class="container proven-expertise">
   <div class="row">
-    <div class="col-6 proven-expertise-img" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);">
+    <div class="col-12 col-sm-6 proven-expertise-img d-none d-sm-block" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);">
     </div>
-    <div class="col-6 m-auto expertise-padding">
-        <h2>Proven Expertise</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <button class="home-btn">Find out more</button>
+    <div class="col-12 col-sm-6 m-auto expertise-text-box">
+      <h2>Proven Expertise</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <button class="home-btn">Find out more</button>
     </div>
   </div>
 </div>
 
-<!-- Guides -->
+<%= render 'shared/guides' %>
 
-<div class="d-none d-sm-block">
-  <div class="homepage-heading">
-    <h1 class="back-line"><span>Guides</span></h1>
-  </div>
-  <div class="container guide-home-container mb-4">
-    <div class="row">
-      <div class="col-6 col-md-3 guide-padding">
-        <div class="guide-card">
-          <img src="https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562245747/guide-cover.png">
-          <div class="btn-container">
-            <button class="home-btn">Download now</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-6 col-md-3 guide-padding">
-        <div class="guide-card">
-          <img src="https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562245747/guide-cover.png">
-          <div class="btn-container">
-            <button class="home-btn">Download now</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-6 col-md-3 guide-padding">
-        <div class="guide-card">
-          <img src="https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562245747/guide-cover.png">
-          <div class="btn-container">
-            <button class="home-btn">Download now</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-6 col-md-3 guide-padding">
-        <div class="guide-card">
-          <img src="https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562245747/guide-cover.png">
-          <div class="btn-container">
-            <button class="home-btn">Download now</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="guide-button-container mb-5">
-    <button class="home-btn">View our guide library</button>
-  </div>
-</div>
+<!-- Contact Banner -->
 
-<!-- Assistance -->
-
-<div class="container assistance-container">
+<div class="container contact-banner">
   <h2>Need Assistance?</h2>
   <p>0207 3000 0000 | info@articusfinance.co.uk</p>
   <button class="home-btn">Contact Us</button>
