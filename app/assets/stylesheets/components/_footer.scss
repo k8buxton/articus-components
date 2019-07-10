@@ -53,3 +53,16 @@
 .footer-logo {
   width: 150px;
 }
+.center-footer {
+  @media (min-width: 768px) {
+    position: relative;
+  }
+}
+.center-footer-inner {
+  @media (min-width: 768px) {
+    margin: 0;
+    position: absolute;
+    top: 50%; -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
