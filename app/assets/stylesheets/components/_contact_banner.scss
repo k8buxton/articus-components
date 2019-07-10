@@ -1,6 +1,5 @@
 .contact-banner {
   text-align:center;
-  background-color: #093031;
   max-width: none;
   padding: 75px 0;
   color: white;
@@ -14,4 +13,12 @@
     color: black;
     border: 0.5px solid white;
   }
+}
+.contact-banner-green {
+  background-color: #093031;
+}
+.pattern {
+  background-image: url(background-pattern.png);
+  background-size: cover;
+  background-position: bottom;
 }
