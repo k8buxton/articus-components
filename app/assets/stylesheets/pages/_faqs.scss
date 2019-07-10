@@ -1,0 +1,68 @@
+.nav.faq-nav .nav-link.active {
+  color: #093031;
+}
+.nav.faq-nav .nav-link {
+  padding: 1rem;
+}
+.card {
+  border: none;
+  background-color: #F6F6F6;
+  @media (max-width: 565px) {
+    margin: 0 16px ;
+  }
+}
+.card-header {
+  background-color: #F6F6F6;
+  border-bottom: none;
+  .btn {
+    padding: 0;
+    color: rgba(0,0,0,.5);
+    font-family: Montserrat;
+    font-size: 13px;
+    @media (max-width: 565px) {
+      font-size: 12px;
+    }
+  }
+}
+.card-body {
+  background-color: #F6F6F6;
+  p {
+    color: #093031;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Montserrat;
+  }
+}
+.faq-nav {
+  background-color: #F6F6F6;
+  a {
+    color: rgba(0,0,0,.5);
+    font-family: Montserrat;
+    font-size: 13px;
+    @media (max-width: 565px) {
+      font-size: 12px;
+    }
+  }
+}
+.faq-nav .nav-link {
+  @media (max-width: 565px) {
+    max-width: 33%;
+    text-align: center;
+  }
+}
+.sm-faq-margin-top {
+  @media (max-width: 565px) {
+    margin-top: 32px;
+  }
+}
+.faq-margin {
+  @media (min-width: 992px) {
+    margin: 0 80px 100px 80px;
+  }
+  @media (min-width: 566px) and (max-width: 991px) {
+    margin: 0 24px 100px 24px;
+  }
+  @media (max-width: 565px) {
+    margin-bottom: 48px;
+  }
+}
