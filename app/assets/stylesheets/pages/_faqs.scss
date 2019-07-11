@@ -21,6 +21,7 @@
     font-size: 13px;
     @media (max-width: 565px) {
       font-size: 12px;
+      text-align: left;
     }
   }
 }
@@ -36,12 +37,21 @@
 }
 .faq-nav {
   background-color: #F6F6F6;
+  @media (max-width: 565px) {
+    background-color: #DDDDDD;
+    // border-top: 1px solid rgba(0,0,0,.3);
+    // border-bottom: 1px solid rgba(0,0,0,.3);
+    padding: 32px 0;
+  }
   a {
     color: rgba(0,0,0,.5);
     font-family: Montserrat;
     font-size: 13px;
     @media (max-width: 565px) {
       font-size: 12px;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
@@ -58,12 +68,12 @@
 }
 .faq-margin {
   @media (min-width: 992px) {
-    margin: 0 80px 100px 80px;
+    margin: 80px;
   }
   @media (min-width: 566px) and (max-width: 991px) {
-    margin: 0 24px 100px 24px;
+    margin: 80px 24px;
   }
   @media (max-width: 565px) {
-    margin-bottom: 48px;
+    margin: 0 0 48px 0;
   }
 }

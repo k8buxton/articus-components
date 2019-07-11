@@ -1,0 +1,74 @@
+.blog {
+  box-shadow: 0px 2px 4px rgba(0,0,0,.3);
+  padding: 0 0px 6px 0px;
+  transition: padding .3s ease-out;
+  &:hover {
+    padding: 0px 0px 41px 0px;
+  }
+  a:hover {
+    color: rgb(0,0,0);
+  }
+}
+.blog-image {
+  position: relative;
+  overflow: hidden;
+ }
+.blog img {
+  height: 170px;
+  transition: all .3s ease-out;
+  width: 100%;
+  object-fit: cover;
+}
+.blog:hover img {
+  height: 135px;
+  transform: scale(1.01);
+}
+.blog-img-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: black;
+  opacity: .1;
+  bottom: 0;
+  transition: opacity .3s ease-out;
+}
+.blog-hover:hover .blog-img-overlay {
+  opacity: 0.25;
+}
+.blog-text-box {
+  position: relative;
+}
+.blog-text-overlay {
+  position: absolute;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity .05s ease-out;
+  padding-right: 32px;
+  bottom: -110px;
+  @media (min-width: 566px) and (max-width: 768px) {
+    bottom: -100px;
+  }
+    @media (max-width: 565px) {
+    bottom: -90px;
+  }
+}
+.blog-hover:hover .blog-text-overlay {
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.8s;
+}
+.blog-card-date {
+  font-size: 11px;
+}
+.blog-card-title {
+  text-transform: uppercase;
+  letter-spacing: .7px;
+  margin-bottom: 0;
+}
+.blog-card-text {
+  font-size: 10px;
+}
