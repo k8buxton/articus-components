@@ -1,35 +1,18 @@
-<div class="banner banner-service">
+<div class="banner">
   <div class="banner-container container">
+    <%= image_tag "articus-finance-logo-white.png", class: "homepage-logo" %>
+    <p class="banner-sub-text">Blog</p>
   </div>
 </div>
 
-<div class="homepage-heading">
-  <h1 class="back-line"><span>Articus Blog</span></h1>
-</div>
-
-
-    <div class="container">
-        <div class="row blog-row my-5 justify-content-center">
-          <%= render 'shared/blog_card' %>
-          <%= render 'shared/blog_card' %>
-          <%= render 'shared/blog_card' %>
-          <%= render 'shared/blog_card' %>
-          <%= render 'shared/blog_card' %>
-          <div class="col-xs-12 col-md-5 col-xl-4 mb-4 py-3">
-            <div class="blog">
-              <a href="/faqs">
-                <div class="blog-image">
-                  <img src="https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg">
-                  <div class="blog-img-overlay"></div>
-                </div>
-                <div class="blog-text-box">
-                  <p class="blog-card-date">11th July 2019</p>
-                  <p class="blog-card-title">Sed ut perspiciatis unde</p>
-                  <p class="mb-0 mt-1 appearing-text">Sed ut perspiciatis unde omnis iste natus error sit…</p>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+<div class="container">
+    <div class="row blog-row my-5 justify-content-center">
+      <%= render 'shared/blog_card' %>
+      <%= render 'shared/blog_card' %>
+      <%= render 'shared/blog_card' %>
+      <%= render 'shared/blog_card' %>
+      <%= render 'shared/blog_card' %>
+      <%= render 'shared/blog_card' %>
     </div>
+  </div>
+</div>
