@@ -18,7 +18,7 @@
     padding: 0;
     color: rgba(0,0,0,.5);
     font-family: Montserrat;
-    font-size: 13px;
+    font-size: 14px;
     @media (max-width: 565px) {
       font-size: 12px;
       text-align: left;
@@ -30,9 +30,10 @@
   margin-left: 24px;
   p {
     color: #093031;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 400;
-    font-family: Montserrat;
+    font-family: Open Sans;
+    line-height: 22px;
   }
 }
 .faq-nav {
@@ -46,7 +47,7 @@
   a {
     color: rgba(0,0,0,.5);
     font-family: Montserrat;
-    font-size: 13px;
+    font-size: 14px;
     @media (max-width: 565px) {
       font-size: 12px;
       &:hover {

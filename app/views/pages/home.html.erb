@@ -2,59 +2,11 @@
   <div class="banner-container container">
     <%= image_tag "articus-finance-logo-white.png", class: "homepage-logo" %>
     <p class="banner-sub-text">Finance</p>
-    <p class="banner-elevator-text">A London based team of specialist mortgage brokers, experienced in securing high value mortgages.</p>
+    <p class="banner-elevator-text">A London based team of specialist mortgage brokers, experienced in securing high value mortgages</p>
   </div>
 </div>
 
-<!-- Services -->
-
-<div class="homepage-heading">
-  <h1 class="back-line"><span>Our Services</span></h1>
-</div>
-<div class="container services-container">
-  <div class="row">
-    <div class="col-12 col-sm-6 col-md-3">
-      <a href="/service_home">
-        <div class="card-style service-card" style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);">
-          <div class="card-padding">
-            <p>Mortgages</p>
-            <button class="home-btn">Read More</button>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col-12 col-sm-6 col-md-3">
-      <a href="https://spf.co.uk/services/mortgages/">
-        <div class="card-style service-card" style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);">
-          <div class="card-padding">
-            <p>Buy-to-let</p>
-            <button class="home-btn">Read More</button>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col-12 col-sm-6 col-md-3">
-      <a href="https://spf.co.uk/services/mortgages/">
-        <div class="card-style service-card" style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);">
-          <div class="card-padding">
-            <p>Bridging</p>
-            <button class="home-btn">Read More</button>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col-12 col-sm-6 col-md-3">
-      <a href="https://spf.co.uk/services/mortgages/">
-        <div class="card-style service-card" style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);">
-          <div class="card-padding">
-            <p>Insurance</p>
-            <button class="home-btn">Read More</button>
-          </div>
-        </div>
-      </a>
-    </div>
-  </div>
-</div>
+<%= render 'shared/services' %>
 
 <!-- USPs -->
 
@@ -106,29 +58,11 @@
   </div>
 </div>
 
-<!-- Proven Expertise Container -->
-
-<div class="container proven-expertise">
-  <div class="row">
-    <div class="col-12 col-sm-6 proven-expertise-img d-none d-sm-block" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);">
-    </div>
-    <div class="col-12 col-sm-6 m-auto expertise-text-box">
-      <h2>Proven Expertise</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <button class="home-btn">Find out more</button>
-    </div>
-  </div>
-</div>
-
+<%= render 'shared/proven_expertise' %>
 <%= render 'shared/guides' %>
 <%= render 'shared/guides_carousel' %>
+<%= render 'shared/contact_banner' %>
 
-<!-- Contact Banner -->
 
-<div class="container contact-banner contact-banner-green">
-  <h2>Need Assistance?</h2>
-  <p>0207 3000 0000 | info@articusfinance.co.uk</p>
-  <button class="home-btn">Contact Us</button>
-</div>
 
 

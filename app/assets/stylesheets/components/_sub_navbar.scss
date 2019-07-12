@@ -2,11 +2,12 @@
   z-index: 1000;
 }
 .navbar-logo {
-  width: 120px;
+  width: 140px;
 }
 .sub-nav ul {
   list-style-type: none;
   margin: 0;
+  margin: 0 40px 0 0;
 }
 .sub-nav {
   background-color: #F6F6F6;
@@ -20,7 +21,7 @@
     padding: 4px 12px;
     font-weight: 100;
     letter-spacing: 0.4px;
-    margin-right: 40px;
+    margin-right: 80px;
     outline: none;
     border: 0.5px solid rgba(9,48,49,0);
     box-shadow: 1px 1px 4px rgba(0,0,0,.4);
