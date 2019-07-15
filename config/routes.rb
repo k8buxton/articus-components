@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'faqs', to: 'pages#faqs', as: :faqs
   get 'blog', to: 'pages#blog', as: :blog
   get 'blog_show', to: 'pages#blog_show', as: :blog_show
+  get 'case_studies', to: 'pages#case_studies', as: :case_studies
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
