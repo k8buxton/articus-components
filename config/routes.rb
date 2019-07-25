@@ -7,7 +7,8 @@ Rails.application.routes.draw do
   get 'blog_show', to: 'pages#blog_show', as: :blog_show
   get 'case_studies', to: 'pages#case_studies', as: :case_studies
   get 'guides', to: 'pages#guides', as: :guides
-  get 'guide_show', to: 'pages#guide_show', as: :guides_show
+  get 'guide_show', to: 'pages#guide_show', as: :guide_show
+  get 'team', to: 'pages#team', as: :team
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
