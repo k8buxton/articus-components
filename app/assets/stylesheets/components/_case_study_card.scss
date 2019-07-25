@@ -1,6 +1,6 @@
 .container-case-studies {
   @media (max-width: 767px) {
-    width: 50%;
+    width: 80%;
   }
   @media (min-width: 767px) and (max-width: 1199px) {
     width: 65%;
@@ -17,14 +17,16 @@
 }
 .case-study-card-image {
   position: relative;
-  flex-basis: 40%;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  flex-basis: 100%;
   @media (min-width: 768px) and (max-width: 991px) {
     height: 160px;
   }
   @media (min-width: 992px) {
     height: 200px;
   }
-
 }
 .case-study-img-overlay {
   position: absolute;

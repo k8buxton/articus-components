@@ -17,6 +17,3 @@ import "./navbar_sticky_scroll";
 // else {
 //    document.getElementsByClassName("nav-link-href2").href="/service_home"
 // }
-
-
-

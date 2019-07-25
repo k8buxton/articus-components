@@ -2,9 +2,12 @@ body {
   background-color: #F6F6F6;
 }
 h1 {
-  font-size: 24px;
+  font-size: 22px;
   font-family: Montserrat;
   letter-spacing: 0.7px;
+  @media (max-width: 575px) {
+    font-size: 18px;
+  }
 }
 h2 {
   font-size: 24px;
@@ -37,7 +40,9 @@ a {
 .banner {
   background-size: cover;
   background-position: center;
-  padding: 130px 0;
+  // padding: 130px 0;
+  display: flex;
+  height: 70vh;
   background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);
   @media (min-width: 1200px) {
     padding: 180px 0;
@@ -45,9 +50,11 @@ a {
 }
 .banner p {
   color: white;
+  font-family: Montserrat;
 }
 .banner-container {
   text-align: center;
+  margin: auto;
   @media (min-width: 992px) {
     max-width: 40%;
   }
@@ -78,7 +85,7 @@ a {
   letter-spacing: 0.7px;
   margin-top: 32px;
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 13px;
 }
 .homepage-heading {
   margin: 80px 0;
