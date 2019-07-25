@@ -242,6 +242,21 @@
   </div>
 </div>
 
+<%= render 'shared/contact_banner' %>
+
+<div class="homepage-heading">
+  <h1 class="back-line"><span>Guides</span></h1>
+</div>
+<div class="d-none d-sm-block">
+  <%= render 'shared/guides' %>
+</div>
+<div class="d-sm-none mb-5">
+  <%= render 'shared/guides_carousel' %>
+</div>
+<div class="guide-button-container">
+  <%= link_to "View our guide library", guides_path, class: "home-btn" %>
+</div>
+
 
 
 

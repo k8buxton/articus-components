@@ -3,9 +3,11 @@
   margin: auto;
   line-height: 22px;
   margin-bottom: 80px;
+  color: rgba(0,0,0,0.7);
   @media (min-width: 992px) {
     line-height: 25px;
-    max-width: 75%;
+    // max-width: 75%;
+    max-width: 65%;
   }
 }
 #service-long-text-margin {
@@ -68,5 +70,11 @@
   }
   @media (min-width: 768px) and (max-width: 991px) {
     margin: 0 40px 64px 40px;
+  }
+  p {
+    color: rgba(0,0,0,0.6);
+  }
+  h3 {
+    margin: 2rem 0 1rem 0;
   }
 }

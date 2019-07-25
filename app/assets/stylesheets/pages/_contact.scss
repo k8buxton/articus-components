@@ -1,0 +1,13 @@
+.contact-text h3 {
+  font-size: 14px;
+}
+.contact-text a {
+  transition: .2s ease-in-out;
+  &:hover {
+    color: rgba(0,0,0,0.5);
+    text-decoration: underline;
+  }
+}
+.contact-logo {
+  width: 160px;
+}
