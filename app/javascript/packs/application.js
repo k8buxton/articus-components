@@ -1,6 +1,7 @@
 import "bootstrap";
 import "./navbar_main_item_redirect";
 import "./navbar_sticky_scroll";
+import "./navbar_slide_dropdown";
 
 
 // if ($(window).width() < 992) {
@@ -17,3 +18,6 @@ import "./navbar_sticky_scroll";
 // else {
 //    document.getElementsByClassName("nav-link-href2").href="/service_home"
 // }
+
+
+

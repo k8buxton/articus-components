@@ -1,16 +1,40 @@
 <div class="banner">
   <div class="banner-container container">
     <%= image_tag "articus-finance-logo-white.png", class: "homepage-logo" %>
-    <p class="banner-sub-text">Case Studies</p>
+    <p class="banner-sub-text">Insight & Opinion</p>
+    <!-- <p class="banner-elevator-text">Frequently Asked Questions</p> -->
   </div>
 </div>
 
-<div class="container py-5 container-case-studies">
+<div class="homepage-heading">
+  <h1 class="back-line"><span>Case Studies</span></h1>
+</div>
+<!--
+<div class="banner">
+  <div class="banner-container container">
+    <%= image_tag "articus-finance-logo-white.png", class: "homepage-logo" %>
+    <p class="banner-sub-text">Case Studies</p>
+  </div>
+</div> -->
+
+<div class="container pb-5 container-case-studies">
   <%= render 'shared/case_study_card' %>
   <%= render 'shared/case_study_card' %>
 </div>
 
 <%= render 'shared/proven_expertise' %>
-<%= render 'shared/guides' %>
-<%= render 'shared/guides_carousel' %>
+
+<div class="homepage-heading">
+  <h1 class="back-line"><span>Guides</span></h1>
+</div>
+<div class="d-none d-sm-block">
+  <%= render 'shared/guides' %>
+</div>
+<div class="d-sm-none mb-5">
+  <%= render 'shared/guides_carousel' %>
+</div>
+<div class="guide-button-container">
+  <%= link_to "View our guide library", guides_path, class: "home-btn" %>
+</div>
+
 <%= render 'shared/contact_banner' %>

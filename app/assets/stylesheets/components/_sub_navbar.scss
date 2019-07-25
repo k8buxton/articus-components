@@ -7,46 +7,47 @@
 .sub-nav ul {
   list-style-type: none;
   margin: 0;
-  margin: 0 40px 0 0;
+  margin: 0 16px 0 0;
 }
 .sub-nav {
   background-color: #F6F6F6;
   width: 100%;
   padding-bottom: 1px;
-  button {
+}
+.sub-nav-btn {
     font-size: 10px;
     border-radius: 15px;
     background-color: #093031;
     color: white;
-    padding: 4px 12px;
+    padding: 5px 24px;
     font-weight: 100;
     letter-spacing: 0.4px;
-    margin-right: 80px;
+    margin-right: 64px;
     outline: none;
     border: 0.5px solid rgba(9,48,49,0);
     box-shadow: 1px 1px 4px rgba(0,0,0,.4);
     text-transform: uppercase;
     transition: .2s ease-in-out;
-  }
-  button:focus {
+  &:focus {
     outline: none;
   }
-  button:hover {
+  &:hover {
     background-color: white;
     color: #093031;
     border: 0.5px solid rgba(9,48,49,.7);
+    text-decoration: none;
   }
 }
 .sub-nav li {
   border-left: 1px solid #dcdcdc;
   padding: 6px 14px;
-  font-size: 11px;
+  font-size: 12px;
   text-transform: uppercase;
 }
 .sub-nav li:first-child {
     border-left: 0;
 }
-.sub-nav a:hover {
+.sub-nav li a:hover {
   text-decoration: underline;
   color: rgb(0,0,0);
 }

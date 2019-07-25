@@ -27,6 +27,7 @@ h4 {
 p {
   font-size: 13px;
   font-family: Open Sans;
+  // color: rgba(0,0,0,0.6);
 }
 li {
   font-size: 12px;
@@ -42,10 +43,10 @@ a {
   background-position: center;
   // padding: 130px 0;
   display: flex;
-  height: 70vh;
+  height: 60vh;
   background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);
   @media (min-width: 1200px) {
-    padding: 180px 0;
+    // padding: 180px 0;
   }
 }
 .banner p {

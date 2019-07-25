@@ -1,27 +1,27 @@
 <div class="sub-nav d-none d-lg-block">
   <ul class="d-flex justify-content-end">
     <li>About Us</li>
-    <li>The Team</li>
+    <li><a href="/team">The Team</a></li>
     <li>Careers</li>
     <li>Introducers</li>
     <li><a href="/faqs">FAQs</a></li>
-    <li>Contact Us</li>
+    <li><i class="fas fa-phone">&nbsp&nbsp&nbsp</i><a href="tel:02073000000">0207 300 0000</a></li>
   </ul>
   <div class="d-flex mt-3 mb-4">
-    <div class="flex-grow-1 ml-5">
+    <div class="flex-grow-1 ml-4">
       <%= link_to "/" do %>
-        <%= image_tag "articus-finance-logo-black.png", class: "navbar-logo ml-5" %>
+        <%= image_tag "articus-finance-logo-green.png", class: "navbar-logo ml-4" %>
       <% end %>
     </div>
     <div class="m-auto">
-      <button>Sign up to our newsletter</button>
+      <a class="sub-nav-btn" href="/contact">Contact Us</a>
     </div>
   </div>
 </div>
 <span class="position-absolute trigger"></span>
 <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
   <%= link_to "/" do %>
-    <%= image_tag "articus-finance-logo-white.png", class: "navbar-logo ml-5 my-4 d-block d-lg-none" %>
+    <%= image_tag "articus-finance-logo-white.png", class: "navbar-logo ml-4 my-4 d-block d-lg-none" %>
   <% end %>
   <button class="navbar-toggler mr-4" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -103,7 +103,7 @@
         </a>
       </li>
       <li class="nav-item dropdown cursor-pointer d-block d-lg-none">
-        <a class="nav-link dropdown-toggle d-flex" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        <a  href="/team" class="nav-link dropdown-toggle d-flex" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
           <p>The Team</p>
         </a>
       </li>
@@ -123,7 +123,7 @@
         </a>
       </li>
       <li class="nav-item dropdown cursor-pointer d-block d-lg-none">
-        <a class="nav-link dropdown-toggle d-flex" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        <a href="/faqs" class="nav-link dropdown-toggle d-flex" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
           <p>Contact Us</p>
         </a>
       </li>
