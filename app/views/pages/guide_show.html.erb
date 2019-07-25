@@ -1,23 +1,18 @@
-<!-- <div class="banner banner-service">
-  <div class="banner-container container">
-  </div>
-</div> -->
-
-<div class="banner">
-  <div class="banner-container container">
-    <%= image_tag "articus-finance-logo-white.png", class: "homepage-logo" %>
-    <p class="banner-sub-text">Mortgages</p>
-    <!-- <p class="banner-elevator-text">Purchase Mortgages</p> -->
-  </div>
-</div>
-
 <div class="homepage-heading">
-  <h1 class="back-line"><span>Purchase Mortgages</span></h1>
+  <h1 class="back-line"><span>Guide 1 - Singulis Anim Life Occaecat</span></h1>
 </div>
 
 <div class="sub-service-container" style="margin-top: 80px;">
   <div class="row justify-content-center">
-    <div class="col-12 col-md-7">
+    <div class="col-12 col-md-5 guide-show-padding">
+      <div class="guide-card">
+        <img src="https://res.cloudinary.com/ddwuu1y0i/image/upload/v1564040336/guide_show_image.png">
+        <div class="btn-container">
+          <%= link_to "Download now", guides_show_path, class: "home-btn" %>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-5">
       <div style="line-height: 25px; max-width: 95%;">
         <p>
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
@@ -27,19 +22,19 @@
         </p>
       </div>
     </div>
-    <div class="col-12 col-md-3 service-guide-padding d-none d-md-block">
-      <div class="guide-card">
-        <img src="https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562245747/guide-cover.png">
-        <div class="btn-container">
-          <%= link_to "Download now", guides_show_path, class: "home-btn" %>
-        </div>
-      </div>
-    </div>
   </div>
 </div>
 
-<%= render 'shared/proven_expertise' %>
+<div class="homepage-heading">
+  <h1 class="back-line"><span>Our Guide Library</span></h1>
+</div>
+<div class="d-none d-sm-block">
+  <%= render 'shared/guides' %>
+</div>
+<div class="d-sm-none">
+  <%= render 'shared/guides_carousel' %>
+</div>
 
-<%= render 'shared/related_services' %>
+<%= render 'shared/contact_banner' %>
+<%= render 'shared/services' %>
 
-<%= render 'shared/contact_banner_pattern' %>

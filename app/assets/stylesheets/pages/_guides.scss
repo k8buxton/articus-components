@@ -1,0 +1,8 @@
+.guide-show-padding {
+  @media (min-width: 992px) {
+    padding: 0 48px 0 24px;
+  }
+  @media (max-width: 991px) {
+    padding-bottom: 24px;
+  }
+}
