@@ -1,4 +1,12 @@
-.contact-text h3 {
+.contact-container {
+  width: 60%;
+  p {
+    margin: 64px auto;
+    width: 80%;
+    color: rgba(0,0,0,0.6);
+  }
+}
+  .contact-text h3 {
   font-size: 14px;
 }
 .contact-text a {
