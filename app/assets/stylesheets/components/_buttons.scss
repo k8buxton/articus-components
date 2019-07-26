@@ -1,0 +1,20 @@
+.home-btn {
+  font-size: 11px;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 6px 10px;
+  transition: ease .5s;
+  @media (min-width: 768px) and (max-width: 991px) {
+    font-size: 10px;
+  }
+}
+.light-btn {
+  border: 0.5px solid rgba(0,0,0,.6);
+  display: block;
+  &:hover {
+    background-color: #15393B;
+    color: white;
+    border: 0.5px solid #15393B;
+  }
+}

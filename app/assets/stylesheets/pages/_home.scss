@@ -24,10 +24,23 @@ h4 {
   font-size: 15px;
   font-family: Montserrat;
 }
+h5 {
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 1.2px;
+  font-family: Montserrat;
+  font-weight: 700;
+  color: #15393B;
+}
+h6 {
+  font-size: 13px;
+  font-family: Open Sans;
+  color: rgba(0,0,0,0.6);
+  margin-bottom: 0rem;
+}
 p {
   font-size: 13px;
   font-family: Open Sans;
-  // color: rgba(0,0,0,0.6);
 }
 li {
   font-size: 12px;
@@ -41,19 +54,11 @@ a {
 .banner {
   background-size: cover;
   background-position: center;
-  // padding: 130px 0;
   display: flex;
   height: 60vh;
   background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);
-  @media (min-width: 1200px) {
-    // padding: 180px 0;
-  }
 }
-.banner p {
-  color: white;
-  font-family: Montserrat;
-}
-.banner-container {
+.banner .banner-container {
   text-align: center;
   margin: auto;
   @media (min-width: 992px) {
@@ -65,28 +70,28 @@ a {
   @media (max-width: 767px) {
     max-width: 70%;
   }
+  p {
+    color: white;
+    font-family: Montserrat;
+    letter-spacing: 0.7px;
+    margin-top: 32px;
+    font-size: 13px;
+  }
+  h3 {
+    letter-spacing: 1px;
+    margin-top: 12px;
+    color: white;
+    @media (max-width: 565px) {
+      font-size: 16px;
+      letter-spacing: 0.8px;
+    }
+  }
 }
 .homepage-logo {
   width: 220px;
   @media (max-width: 565px) {
     width: 180px;
   }
-}
-.banner-sub-text {
-  font-size: 18px;
-  letter-spacing: 1px;
-  margin-top: 12px;
-  font-family: "Montserrat";
-  @media (max-width: 565px) {
-    font-size: 16px;
-    letter-spacing: 0.8px;
-  }
-}
-.banner-elevator-text {
-  letter-spacing: 0.7px;
-  margin-top: 32px;
-  font-family: "Open Sans";
-  font-size: 13px;
 }
 .homepage-heading {
   margin: 80px 0;
@@ -102,7 +107,6 @@ a {
     position: relative;
     z-index: 1;
   &:before {
-      // border-top: 1px solid rgba(0,0,0,.3);
       border-top: .5px solid #093031;
       content:"";
       margin: 0 auto;
@@ -115,19 +119,4 @@ a {
       padding: 0 10px;
   }
 }
-.heading {
-  margin: 150px 64px;
-}
-.home-btn {
-  font-size: 11px;
-  // font-weight: 100;
-  font-family: Montserrat;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  padding: 6px 10px;
-  transition: ease .5s;
-  @media (min-width: 768px) and (max-width: 991px) {
-    font-size: 10px;
-    padding: 5px 8px;
-  }
-}
+

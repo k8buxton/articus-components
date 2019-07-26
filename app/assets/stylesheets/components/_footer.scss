@@ -8,13 +8,10 @@
     color: rgb(0,0,0);
   }
   button {
-    border: 0.5px solid rgba(0,0,0,.6);
     background-color: #DDDDDD;
-  }
-  button:hover {
-    background-color: #15393B;
-    color: white;
-    border: 0.5px solid #15393B;
+    &:hover {
+      background-color: #15393B;
+    }
   }
 }
 .footer-padding {
@@ -64,7 +61,7 @@
 }
 .center-footer-inner {
   @media (min-width: 768px) {
-    margin: 0;
+    // margin: 0;
     position: absolute;
     top: 50%; -ms-transform: translateY(-50%);
     transform: translateY(-50%);

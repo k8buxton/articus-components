@@ -14,7 +14,7 @@
   color: white;
   margin: 0 auto 32px auto;
   button {
-  border: 0.5px solid rgba(0,0,0,.6);
+  // border: 0.5px solid rgba(0,0,0,.6);
   background-color: rgba(255,255,255,.3);
   color: white;
   border: 0.5px solid rgba(255,255,255,.8);
@@ -24,14 +24,14 @@
     color: black;
     border: 0.5px solid white;
   }
-  p {
+  h3 {
   // font-weight: 100;
-  font-family: Montserrat;
+  // font-family: Montserrat;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   }
 }
-.service-card p {
+.service-card h3 {
   @media (max-width: 575px) {
     margin-top: 104px;
     margin-bottom: 72px;

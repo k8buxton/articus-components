@@ -28,7 +28,7 @@
 }
 .blog-image {
   position: relative;
-  overflow: hidden;
+  // overflow: hidden;
  }
 .blog img {
   height: 170px;
@@ -75,14 +75,6 @@
   transition-delay: 0s;
   transition-duration: 0.8s;
 }
-.blog-card-date {
-  text-transform: uppercase;
-  font-size: 11px;
-  letter-spacing: 1.2px;
-  font-family: Montserrat;
-  font-weight: 700;
-  color: #15393B;
-}
 .blog-card-title {
   text-transform: uppercase;
   letter-spacing: .7px;
@@ -123,12 +115,6 @@
   @media (max-width: 767px) {
     padding-top: 16px;
   }
-}
-.blog-lg-image {
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);
 }
 .blog-border {
   @media (min-width: 768px) {
