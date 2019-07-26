@@ -1,12 +1,18 @@
 body {
   background-color: #F6F6F6;
+  color: #191F1F;
 }
 h1 {
-  font-size: 22px;
-  font-family: Montserrat;
-  letter-spacing: 0.7px;
+  // font-size: 24px;
+  font-size: 28px;
+  // font-family: Montserrat;
+  font-family: tiempos_headline;
+  letter-spacing: 0.5px;
+  color: #191F1F;
+  // letter-spacing: 1px;
   @media (max-width: 575px) {
-    font-size: 18px;
+    // font-size: 18px;
+    font-size: 20px;
   }
 }
 h2 {
@@ -16,6 +22,7 @@ h2 {
   margin-bottom: 14px;
 }
 h3 {
+  // font-size: 17px;
   font-size: 18px;
   font-family: Montserrat;
   margin: .5rem 0;
@@ -33,13 +40,13 @@ h5 {
   color: #15393B;
 }
 h6 {
-  font-size: 13px;
+  font-size: 12.5px;
   font-family: Open Sans;
   color: rgba(0,0,0,0.6);
   margin-bottom: 0rem;
 }
 p {
-  font-size: 13px;
+  font-size: 12.5px;
   font-family: Open Sans;
 }
 li {
@@ -51,12 +58,15 @@ a {
     text-decoration: none;
   }
 }
+.paragraph {
+  line-height: 22px;
+}
 .banner {
   background-size: cover;
   background-position: center;
   display: flex;
   height: 60vh;
-  background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);
+  background-image: linear-gradient(rgba(25,31,31,0.65),rgba(25,31,31,0.65)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);
 }
 .banner .banner-container {
   text-align: center;
@@ -79,7 +89,7 @@ a {
   }
   h3 {
     letter-spacing: 1px;
-    margin-top: 12px;
+    margin-top: 14px;
     color: white;
     @media (max-width: 565px) {
       font-size: 16px;
@@ -107,7 +117,7 @@ a {
     position: relative;
     z-index: 1;
   &:before {
-      border-top: .5px solid #093031;
+      border-top: .5px solid #191F1F;
       content:"";
       margin: 0 auto;
       position: absolute;
@@ -119,4 +129,7 @@ a {
       padding: 0 10px;
   }
 }
-
+.title {
+  font-weight: bold;
+  margin: 32px 0;
+}
