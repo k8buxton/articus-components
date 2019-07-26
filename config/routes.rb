@@ -1,7 +1,15 @@
 Rails.application.routes.draw do
   root to: 'pages#home'
-  get 'service_home', to: 'pages#service_home', as: :service
-  get 'sub_service', to: 'pages#sub_service', as: :sub_service
+
+  get 'mortgages', to: 'pages#mortgages', as: :mortgages
+  get 'purchase_mortgages', to: 'pages#purchase_mortgages', as: :purchase_mortgages
+  get 'remortgage', to: 'pages#remortgage', as: :remortgage
+  get 'interest_only', to: 'pages#interest_only', as: :interest_only
+  get 'high_loan_to_value_mortgages', to: 'pages#high_loan_to_value_mortgages', as: :high_loan_to_value_mortgages
+  get 'self_employed_mortgages', to: 'pages#self_employed_mortgages', as: :self_employed_mortgages
+  get 'expat_mortgages', to: 'pages#expat_mortgages', as: :expat_mortgages
+  get 'foreign_national_mortgages', to: 'pages#foreign_national_mortgages', as: :foreign_national_mortgages
+
   get 'faqs', to: 'pages#faqs', as: :faqs
   get 'blog', to: 'pages#blog', as: :blog
   get 'blog_show', to: 'pages#blog_show', as: :blog_show

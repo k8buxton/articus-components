@@ -12,6 +12,9 @@
 .light-btn {
   border: 0.5px solid rgba(0,0,0,.6);
   display: block;
+  &:focus {
+    outline:none;
+  }
   &:hover {
     background-color: #15393B;
     color: white;
