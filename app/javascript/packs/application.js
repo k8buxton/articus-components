@@ -8,7 +8,7 @@ import "./navbar_slide_dropdown";
 //    document.getElementById("nav-link-href").href="#"
 // }
 // else {
-//    document.getElementById("nav-link-href").href="/service_home"
+//    document.getElementById("nav-link-href").href="/mortgages"
 // }
 
 
@@ -16,7 +16,7 @@ import "./navbar_slide_dropdown";
 //    document.getElementsByClassName("nav-link-href2").href="#"
 // }
 // else {
-//    document.getElementsByClassName("nav-link-href2").href="/service_home"
+//    document.getElementsByClassName("nav-link-href2").href="/mortgages"
 // }
 
 
