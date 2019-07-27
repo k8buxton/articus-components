@@ -1,14 +1,14 @@
 Rails.application.routes.draw do
   root to: 'pages#home'
 
-  get 'mortgages', to: 'pages#mortgages', as: :mortgages
-  get 'purchase_mortgages', to: 'pages#purchase_mortgages', as: :purchase_mortgages
-  get 'remortgage', to: 'pages#remortgage', as: :remortgage
-  get 'interest_only', to: 'pages#interest_only', as: :interest_only
-  get 'high_loan_to_value_mortgages', to: 'pages#high_loan_to_value_mortgages', as: :high_loan_to_value_mortgages
-  get 'self_employed_mortgages', to: 'pages#self_employed_mortgages', as: :self_employed_mortgages
-  get 'expat_mortgages', to: 'pages#expat_mortgages', as: :expat_mortgages
-  get 'foreign_national_mortgages', to: 'pages#foreign_national_mortgages', as: :foreign_national_mortgages
+  get 'mortgages', to: 'mortgages#mortgages', as: 'mortgages'
+  get 'purchase-mortgages', to: 'mortgages#purchase_mortgages', as: 'purchase_mortgages'
+  get 'remortgage', to: 'mortgages#remortgage', as: 'remortgage'
+  get 'interest-only', to: 'mortgages#interest_only', as: 'interest_only'
+  get 'high-loan-to-value-mortgages', to: 'mortgages#high_loan_to_value_mortgages', as: 'high_loan_to_value_mortgages'
+  get 'self-employed-mortgages', to: 'mortgages#self_employed_mortgages', as: 'self_employed_mortgages'
+  get 'expat-mortgages', to: 'mortgages#expat_mortgages', as: 'expat_mortgages'
+  get 'foreign-national-mortgages', to: 'mortgages#foreign_national_mortgages', as: 'foreign_national_mortgages'
 
   get 'faqs', to: 'pages#faqs', as: :faqs
   get 'blog', to: 'pages#blog', as: :blog
