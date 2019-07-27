@@ -20,5 +20,7 @@ Rails.application.routes.draw do
   get 'team', to: 'pages#team', as: :team
   get 'contact', to: 'pages#contact', as: :contact
 
+  # https://stackoverflow.com/questions/4479233/static-pages-in-ruby-on-rails
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

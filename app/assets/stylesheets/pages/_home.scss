@@ -65,7 +65,12 @@ a {
 }
 .banner .banner-container {
   text-align: center;
-  margin: auto;
+  // margin: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row wrap;
+  display: flex;
   @media (min-width: 992px) {
     max-width: 40%;
   }
