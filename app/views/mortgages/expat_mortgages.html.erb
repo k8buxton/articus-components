@@ -1,3 +1,7 @@
+<% title 'Expat Mortgages and Mortgages for British Expats' %>
+<% description 'Are you an expat looking for advice on expat mortgages? Our expat mortgage brokers can help.' %>
+<% keywords 'Expat mortgages, expat mortgage broker, expat mortgage providers, expat mortgage specialist' %>
+
 <div class="banner">
   <div class="banner-container container banner-container-page">
     <%= image_tag "articus-finance-logo-white.png", class: "homepage-logo" %>
@@ -50,13 +54,22 @@
         </div>
       </div>
       <%= render 'shared/modal' %>
-      <!-- Model needs to be outside parent fixed guide -->
     </div>
   </div>
 </div>
 
 <%= render 'shared/proven_expertise' %>
 
-<%= render 'shared/related_services' %>
+<div class="homepage-heading">
+  <h1 class="back-line"><span>Related Services</span></h1>
+</div>
+<div class="container services-container mb-5">
+  <div class="row">
+    <%= render 'shared/mortgages/related_interest_only' %>
+    <%= render 'shared/mortgages/related_high_ltv' %>
+    <%= render 'shared/mortgages/related_remortgage' %>
+    <%= render 'shared/mortgages/related_purchase' %>
+  </div>
+</div>
 
 <%= render 'shared/contact_banner_pattern' %>

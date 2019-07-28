@@ -1,3 +1,7 @@
+<% title 'High Low To Value Mortgage Deals for UK Property' %>
+<% description 'Need a high loan to value mortgage or a mortgage with a low deposit? We can source the best high loan to value deals.' %>
+<% keywords 'High loan to value mortgages, what is a high loan to value mortgage, high loan to value mortgage deals' %>
+
 <div class="banner">
   <div class="banner-container container banner-container-page">
     <%= image_tag "articus-finance-logo-white.png", class: "homepage-logo" %>
@@ -53,13 +57,22 @@
         </div>
       </div>
       <%= render 'shared/modal' %>
-      <!-- Model needs to be outside parent fixed guide -->
     </div>
   </div>
 </div>
 
 <%= render 'shared/proven_expertise' %>
 
-<%= render 'shared/related_services' %>
+<div class="homepage-heading">
+  <h1 class="back-line"><span>Related Services</span></h1>
+</div>
+<div class="container services-container mb-5">
+  <div class="row">
+    <%= render 'shared/mortgages/related_purchase' %>
+    <%= render 'shared/mortgages/related_interest_only' %>
+    <%= render 'shared/mortgages/related_expat' %>
+    <%= render 'shared/mortgages/related_foreign_national' %>
+  </div>
+</div>
 
 <%= render 'shared/contact_banner_pattern' %>

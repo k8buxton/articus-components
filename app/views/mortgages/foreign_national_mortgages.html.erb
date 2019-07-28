@@ -1,3 +1,7 @@
+<% title 'Foreign National Mortgages' %>
+<% description 'Foreign national mortgages in the UK are complicated – our expert foreign national mortgage brokers make it easy.' %>
+<% keywords 'Foreign national mortgages, foreign national mortgage financing, foreign national mortgage rates' %>
+
 <div class="banner">
   <div class="banner-container container banner-container-page">
     <%= image_tag "articus-finance-logo-white.png", class: "homepage-logo" %>
@@ -55,13 +59,22 @@
         </div>
       </div>
       <%= render 'shared/modal' %>
-      <!-- Model needs to be outside parent fixed guide -->
     </div>
   </div>
 </div>
 
 <%= render 'shared/proven_expertise' %>
 
-<%= render 'shared/related_services' %>
+<div class="homepage-heading">
+  <h1 class="back-line"><span>Related Services</span></h1>
+</div>
+<div class="container services-container mb-5">
+  <div class="row">
+    <%= render 'shared/mortgages/related_interest_only' %>
+    <%= render 'shared/mortgages/related_high_ltv' %>
+    <%= render 'shared/mortgages/related_purchase' %>
+    <%= render 'shared/mortgages/related_remortgage' %>
+  </div>
+</div>
 
 <%= render 'shared/contact_banner_pattern' %>
