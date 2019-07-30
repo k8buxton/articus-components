@@ -81,9 +81,12 @@
   margin-bottom: 8px;
   font-family: Montserrat;
   font-size: 14px;
-  height: 48px;
-  @media (max-width: 765px) {
-    height: 32px;
+  height: 44px;
+  @media (min-width: 566px) and (max-width: 765px) {
+    height: 26px;
+  }
+  @media (max-width: 565px) {
+    height: 44px;
   }
 }
 .appearing-text {
