@@ -2,16 +2,16 @@
 <% description 'Articus Finance sources the best mortgage deals for global clients. We are a London based team of specialist mortgage brokers, experienced in securing high value mortgages.' %>
 
 <div class="homepage-heading">
-  <h1 class="back-line"><span>Guide 1 - Singulis Anim Life Occaecat</span></h1>
+  <h1 class="back-line"><span>Guide to High Value Mortgages For UK Property</span></h1>
 </div>
 
 <div class="sub-page-container guide-show-margin">
   <div class="row justify-content-center">
-    <div class="col-12 col-md-5 guide-show-padding">
+    <div class="col-10 col-sm-8 col-md-5 guide-show-padding">
       <div class="guide-card">
-        <img src="https://res.cloudinary.com/ddwuu1y0i/image/upload/v1564040336/guide_show_image.png">
+        <img src="https://res.cloudinary.com/ddwuu1y0i/image/upload/v1564040336/guide_show_image.png" data-toggle="modal" data-target="#exampleModal">
         <div class="btn-container">
-          <button type="button" class="w-100 home-btn light-btn" data-toggle="modal" data-target="#exampleModal">Download Now</button>
+          <button type="button" class="mt-4 w-100 home-btn light-btn" data-toggle="modal" data-target="#exampleModal">Download Now</button>
           <%= render 'shared/modal' %>
         </div>
       </div>
@@ -33,10 +33,10 @@
 <div class="homepage-heading">
   <h1 class="back-line"><span>Our Guide Library</span></h1>
 </div>
-<div class="d-none d-sm-block">
+<div class="d-none d-sm-block mb-5">
   <%= render 'shared/guides' %>
 </div>
-<div class="d-sm-none">
+<div class="d-sm-none mb-5">
   <%= render 'shared/guides_carousel' %>
 </div>
 

@@ -26,12 +26,24 @@
 }
 .guide-card img {
   width: 100%;
-  // height: 100%;
-  // object-fit: contain;
   box-shadow: 0px 2px 4px rgba(0,0,0,.3);
+  &:hover {
+    cursor: pointer;
+  }
+}
+.guide-card h5 {
+  margin-top: 18px;
+  font-size: 12px;
+}
+.guide-card:hover .light-btn {
+  color: white;
+  background-color: #15393B;
+  border: 0.5px solid #15393B;
 }
 .guide-card .btn-container {
-  text-align: center; margin: 24px 0;
+  text-align: center;
+  // margin: 24px 0;
+  margin: 14px 0;
 }
 .guide-button-container {
   text-align: center;
