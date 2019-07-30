@@ -50,6 +50,9 @@
 .case-study-card:hover .case-study-img-overlay {
   opacity: .4;
 }
+.case-study-card:hover .case-study-card-text h3 {
+  color: black;
+}
 .case-study-card-text {
   flex-grow:1;
   background-color: white;
@@ -60,27 +63,21 @@
     text-transform: uppercase;
     letter-spacing:.7px;
     font-size: 14px;
-    margin-top: none;
+    // margin-top: none;
   }
   p {
     font-size: 11px;
     color: rgba(0, 0, 0, 0.5);
   }
-  a {
-    text-transform: uppercase;
+  h5 {
     text-decoration: underline;
-    font-size: 11px;
-    letter-spacing: 1.2px;
-    font-family: Montserrat;
-    font-weight: 700;
-    color: #15393B;
-    margin-bottom: 0.5rem;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-  @media (max-width: 767px) {
-    padding: 16px 0;
+    margin: 0.5rem 0;
+    @media (max-width: 767px) {
+      padding: 16px 0;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 

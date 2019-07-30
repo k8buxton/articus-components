@@ -38,7 +38,6 @@
 }
 .blog:hover img {
   height: 150px;
-  transform: scale(1.01);
 }
 .blog-img-overlay {
   position: absolute;
@@ -91,8 +90,7 @@
   font-size: 11px;
   opacity: 0;
   transition: opacity .05s ease-out;
-  // font-family: Montserrat;
-  color: rgba(0,0,0,.5);
+  color: rgba(0,0,0,.6);
 }
 .blog:hover .appearing-text {
   opacity: 1;
