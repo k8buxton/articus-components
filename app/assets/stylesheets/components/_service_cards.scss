@@ -30,7 +30,8 @@
   }
 }
 .service-card h3 {
-  margin: auto 8px;
+  align-self: center;
+  margin: 0 8px;
   @media (max-width: 575px) {
     font-size: 20px;
   }
@@ -42,6 +43,8 @@
   }
 }
 .service-card-quad h3 {
+  // align-self: center;
+  // margin: 0 8px;
   @media (min-width: 576px) and (max-width: 767px) {
     font-size: 16px;
   }
@@ -59,8 +62,8 @@
 }
 .service-card-title {
   position:absolute;
-  height: 100%;
-  display: flex;
+  // height: 100%;
+  // display: flex;
 }
 .service-card-padding {
   @media (max-width: 575px) {
