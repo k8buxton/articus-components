@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get 'mortgages', to: 'mortgages#mortgages', as: 'mortgages'
   get 'purchase-mortgages', to: 'mortgages#purchase_mortgages', as: 'purchase_mortgages'
   get 'remortgage', to: 'mortgages#remortgage', as: 'remortgage'
-  get 'interest-only', to: 'mortgages#interest_only', as: 'interest_only'
+  get 'interest-only-mortgages', to: 'mortgages#interest_only', as: 'interest_only'
   get 'high-loan-to-value-mortgages', to: 'mortgages#high_loan_to_value_mortgages', as: 'high_loan_to_value_mortgages'
   get 'self-employed-mortgages', to: 'mortgages#self_employed_mortgages', as: 'self_employed_mortgages'
   get 'expat-mortgages', to: 'mortgages#expat_mortgages', as: 'expat_mortgages'
@@ -17,7 +17,7 @@ Rails.application.routes.draw do
   get 'case_study_show', to: 'pages#case_study_show', as: :case_study_show
   get 'guides', to: 'pages#guides', as: :guides
   get 'guide_show', to: 'pages#guide_show', as: :guide_show
-  get 'team', to: 'pages#team', as: :team
+  get 'our-team', to: 'pages#team', as: :team
   get 'contact', to: 'pages#contact', as: :contact
 
   # https://stackoverflow.com/questions/4479233/static-pages-in-ruby-on-rails
