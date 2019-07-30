@@ -64,20 +64,8 @@ a {
   height: 60vh;
   background-image: linear-gradient(rgba(25,31,31,0.65),rgba(25,31,31,0.65)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);
 }
-.banner .banner-container-home {
-  // justify-content: center;
-  // align-items: center;
-  // align-content: center;
-  // flex-flow: row wrap;
-  // display: flex;
-  align-self: center;
-
-}
-.banner .banner-container-page {
-  // margin: auto;
-  align-self: center;
-}
 .banner .banner-container {
+  align-self: center;
   text-align: center;
   @media (min-width: 992px) {
     max-width: 40%;
