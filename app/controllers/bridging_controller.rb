@@ -1,0 +1,2 @@
+class BridgingController < ApplicationController
+end
