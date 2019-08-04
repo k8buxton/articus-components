@@ -1,0 +1,2 @@
+class BuyToLetController < ApplicationController
+end
