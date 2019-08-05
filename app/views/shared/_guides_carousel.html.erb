@@ -1,19 +1,19 @@
 <div id="carouselExampleControls" class="carousel slide w-50 m-auto" data-ride="carousel" data-interval="2500">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <a href="/guide_show">
+      <%= link_to guide_show_path do %>
         <img class="d-block w-100" src="https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562245747/guide-cover.png" alt="First slide">
-      </a>
+      <% end %>
     </div>
     <div class="carousel-item">
-      <a href="/guide_show">
+      <%= link_to guide_show_path do %>
         <img class="d-block w-100" src="https://res.cloudinary.com/ddwuu1y0i/image/upload/v1564139408/guide_cover_2.png" alt="Second slide">
-      </a>
+      <% end %>
     </div>
     <div class="carousel-item">
-      <a href="/guide_show">
+      <%= link_to guide_show_path do %>
         <img class="d-block w-100" src="https://res.cloudinary.com/ddwuu1y0i/image/upload/v1564139407/guide_cover_4.png" alt="Third slide">
-      </a>
+      <% end %>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
