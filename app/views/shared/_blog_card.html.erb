@@ -1,6 +1,6 @@
 <div class="col-xs-12 col-md-5 col-xl-4 mb-4 py-3">
   <div class="blog">
-    <a href="/blog-show">
+    <%= link_to blog_show_path do %>
       <div class="blog-image">
         <img src="https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg">
         <div class="blog-img-overlay"></div>
@@ -10,6 +10,6 @@
         <p class="blog-card-title">Sed ut perspiciatis unde omnis iste natus error sit accusantium</p>
         <p class="mb-0 mt-1 appearing-text">Sed ut perspiciatis unde omnis natus sit sed ut perspiciatis unde omnis natus sit...</p>
       </div>
-    </a>
+    <% end %>
   </div>
 </div>

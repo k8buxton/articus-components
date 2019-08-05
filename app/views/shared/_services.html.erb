@@ -4,7 +4,7 @@
 <div class="container services-container">
   <div class="row">
     <div class="col-12 col-sm-6 col-md-3">
-      <a href="/mortgages">
+      <%= link_to mortgages_path do %>
         <div class="card-style service-card-quad" style="background-image: linear-gradient(rgba(25,31,31,0.65),rgba(25,31,31,0.65)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);">
           <div class="service-card-title">
             <h3>Mortgages</h3>
@@ -13,10 +13,10 @@
             <button class="home-btn">Read More</button>
           </div>
         </div>
-      </a>
+      <% end %>
     </div>
     <div class="col-12 col-sm-6 col-md-3">
-      <a href="/mortgages">
+      <%= link_to buy_to_let_mortgages_path do %>
         <div class="card-style service-card-quad" style="background-image: linear-gradient(rgba(25,31,31,0.65),rgba(25,31,31,0.65)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);">
           <div class="service-card-title">
             <h3>Buy-to-let</h3>
@@ -25,10 +25,10 @@
             <button class="home-btn">Read More</button>
           </div>
         </div>
-      </a>
+      <% end %>
     </div>
     <div class="col-12 col-sm-6 col-md-3">
-      <a href="/mortgages">
+      <%= link_to bridging_loans_path do %>
         <div class="card-style service-card-quad" style="background-image: linear-gradient(rgba(25,31,31,0.65),rgba(25,31,31,0.65)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);">
           <div class="service-card-title">
             <h3>Bridging</h3>
@@ -37,10 +37,10 @@
             <button class="home-btn">Read More</button>
           </div>
         </div>
-      </a>
+      <% end %>
     </div>
     <div class="col-12 col-sm-6 col-md-3">
-      <a href="/mortgages">
+      <%= link_to insurance_path do %>
         <div class="card-style service-card-quad" style="background-image: linear-gradient(rgba(25,31,31,0.65),rgba(25,31,31,0.65)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);">
           <div class="service-card-title">
             <h3>Insurance</h3>
@@ -49,7 +49,7 @@
             <button class="home-btn">Read More</button>
           </div>
         </div>
-      </a>
+      <% end %>
     </div>
   </div>
 </div>

@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <%= display_meta_tags site: 'Articus Finance' %>
+    <% if controller_name == 'pages' %>
+      <title>Articus Finance | Mortgage Deals For HNW and Complex Clients</title>
+      <meta name="description" content='Articus Finance sources the best mortgage deals for global clients. We are a London based team of specialist mortgage brokers, experienced in securing high value mortgages.'>
+    <% else %>
+      <%= display_meta_tags site: 'Articus Finance' %>
+    <% end %>
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
     <%= favicon_link_tag %>
