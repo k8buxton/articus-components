@@ -25,6 +25,11 @@ Rails.application.routes.draw do
   get 'second-charge-bridging-loans', to: 'bridging#second_charge_bridging_loans'
   get 'property-refurbishment-finance', to: 'bridging#property_refurbishment_finance'
 
+  get 'insurance', to: 'insurance#insurance'
+  get 'life-insurance', to: 'insurance#life_insurance'
+  get 'income-protection-insurance', to: 'insurance#income_protection_insurance'
+  get 'buildings-contents-insurance', to: 'insurance#buildings_contents_insurance'
+
   get 'faqs', to: 'pages#faqs'
   get 'blog', to: 'pages#blog'
   get 'blog_show', to: 'pages#blog_show'

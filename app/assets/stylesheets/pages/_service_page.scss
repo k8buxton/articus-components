@@ -50,5 +50,13 @@
   }
   li {
     font-size: 13px;
+    padding-bottom: 10px;
+  }
+  a {
+    text-decoration: underline;
+    color: #15393B;
+    &:hover {
+      color: rgba(0,0,0,0.5);
+    }
   }
 }
