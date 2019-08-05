@@ -30,15 +30,19 @@ Rails.application.routes.draw do
   get 'income-protection-insurance', to: 'insurance#income_protection_insurance'
   get 'buildings-contents-insurance', to: 'insurance#buildings_contents_insurance'
 
-  get 'faqs', to: 'pages#faqs'
+  get 'about', to: 'pages#about'
   get 'blog', to: 'pages#blog'
-  get 'blog_show', to: 'pages#blog_show'
-  get 'case_studies', to: 'pages#case_studies'
-  get 'case_study_show', to: 'pages#case_study_show'
-  get 'guides', to: 'pages#guides'
-  get 'guide_show', to: 'pages#guide_show'
-  get 'our-team', to: 'pages#team'
+  get 'blog-show', to: 'pages#blog_show'
+  get 'careers', to: 'pages#careers'
+  get 'case-studies', to: 'pages#case_studies'
+  get 'case-study-show', to: 'pages#case_study_show'
   get 'contact', to: 'pages#contact'
+  get 'faqs', to: 'pages#faqs'
+  get 'guides', to: 'pages#guides'
+  get 'guide-show', to: 'pages#guide_show'
+  get 'introducers', to: 'pages#introducers'
+  get 'privacy-policy', to: 'pages#privacy_policy'
+  get 'our-team', to: 'pages#team'
 
   # https://stackoverflow.com/questions/4479233/static-pages-in-ruby-on-rails
 

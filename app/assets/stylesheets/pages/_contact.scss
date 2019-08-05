@@ -1,20 +1,30 @@
 .contact-container {
   width: 60%;
+  // margin: auto;
+  // margin-bottom: 80px;
+  // color: rgba(0,0,0,0.7);
+  line-height: 22px;
   p {
-    margin: 64px auto;
-    width: 80%;
+    margin: 64px auto 32px auto;
     color: rgba(0,0,0,0.8);
   }
+  @media (min-width: 768px) {
+    width: 50%;
+  }
 }
-  .contact-text h3 {
-  font-size: 14px;
-  color: black;
-}
-.contact-text a {
-  transition: .2s ease-in-out;
-  &:hover {
-    color: rgba(0,0,0,0.5);
-    text-decoration: underline;
+.contact-text {
+  text-align: center;
+  p {
+    // font-size: 12px;
+    margin-bottom: 0;
+    // color: black;
+  }
+  a {
+    transition: .2s ease-in-out;
+    &:hover {
+      color: rgba(0,0,0,0.5);
+      text-decoration: underline;
+    }
   }
 }
 .contact-logo {
