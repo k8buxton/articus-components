@@ -2,7 +2,8 @@
   max-width: 85%;
   margin: auto;
   margin-bottom: 80px;
-  color: rgba(0,0,0,0.7);
+  // color: rgba(0,0,0,0.7);
+  color: $tuatara;
   line-height: 22px;
   p {
     margin-bottom: 2rem;
@@ -44,7 +45,7 @@
 .sub-service-text {
   line-height: 22px;
   max-width: 95%;
-  color: rgba(0,0,0,0.7);
+  color: $tuatara;
   p {
     margin-bottom: 2rem;
   }

@@ -10,15 +10,15 @@
   margin: 0 16px 0 0;
 }
 .sub-nav {
-  background-color: #F6F6F6;
+  background-color: $white;
   width: 100%;
   padding-bottom: 1px;
 }
 .sub-nav-btn {
     font-size: 11px;
     border-radius: 15px;
-    background-color: #093031;
-    color: white;
+    background-color: $bottle;
+    color: $white;
     padding: 5px 28px;
     font-weight: 100;
     letter-spacing: 0.4px;
@@ -32,8 +32,8 @@
     outline: none;
   }
   &:hover {
-    background-color: white;
-    color: #093031;
+    background-color: $white;
+    color: $bottle;
     border: 0.5px solid rgba(9,48,49,.7);
     text-decoration: none;
   }

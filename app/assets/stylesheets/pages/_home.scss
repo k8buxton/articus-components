@@ -1,19 +1,18 @@
 body {
-  background-color: #F6F6F6;
-  color: #191F1F;
+  background-color: $white;
+  color: $tuatara;
 }
 h1 {
   font-size: 28px;
   font-family: tiempos_headline;
   letter-spacing: 0.5px;
-  color: #191F1F;
+  color: $shark;
   @media (max-width: 575px) {
     font-size: 22px;
   }
 }
 h2 {
   font-size: 24px;
-  // font-size: 24px;
   font-family: tiempos_headline;
   letter-spacing: .5px;
   margin-bottom: 18px;
@@ -34,7 +33,7 @@ h5 {
   letter-spacing: 1.2px;
   font-family: Montserrat;
   font-weight: 700;
-  color: #15393B;
+  color: $cyprus;
 }
 h6 {
   font-size: 12.5px;
@@ -78,7 +77,8 @@ a {
     max-width: 70%;
   }
   p {
-    color: white;
+    color: $white;
+    // Dune (White)
     font-family: Montserrat;
     letter-spacing: 0.7px;
     margin-top: 32px;
@@ -87,7 +87,8 @@ a {
   h3 {
     letter-spacing: 1px;
     margin-top: 14px;
-    color: white;
+    color: $white;
+    // Dune (White)
     @media (max-width: 565px) {
       font-size: 16px;
       letter-spacing: 0.8px;
@@ -114,7 +115,7 @@ a {
     position: relative;
     z-index: 1;
   &:before {
-      border-top: .5px solid #191F1F;
+      border-top: .5px solid $shark;
       content:"";
       margin: 0 auto;
       position: absolute;
@@ -122,7 +123,7 @@ a {
       z-index: -1;
   }
   span {
-      background: #F6F6F6;
+      background: $white;
       padding: 0 10px;
   }
 }

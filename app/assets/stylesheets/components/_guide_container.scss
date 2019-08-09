@@ -36,7 +36,7 @@
   font-size: 12px;
 }
 .guide-card:hover .light-btn {
-  color: white;
+  color: $white;
   background-color: #15393B;
   border: 0.5px solid #15393B;
 }
@@ -57,7 +57,7 @@
   }
   &:hover {
     background-color: #15393B;
-    color: white;
+    color: $white;
     border: 0.5px solid #15393B;
   }
 }

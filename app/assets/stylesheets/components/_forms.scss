@@ -10,4 +10,10 @@
 input#enquiry {
    padding: 0px 12px 60px 12px;
 }
-
+.contact-page-form {
+  background-color: $bottle;
+  h4 {
+    text-transform: uppercase;
+    color: $white;
+  }
+}

@@ -1,22 +1,22 @@
 .nav.faq-nav .nav-link.active {
-  color: #093031;
+  color: $bottle;
 }
 .nav.faq-nav .nav-link {
   padding: 1rem;
 }
 .card {
   border: none;
-  background-color: #F6F6F6;
+  background-color: $white;
   @media (max-width: 565px) {
     margin: 0 16px ;
   }
 }
 .card-header {
-  background-color: #F6F6F6;
+  background-color: $white;
   border-bottom: none;
   .btn {
     padding: 0;
-    color: #093031;
+    color: $bottle;
     font-family: Montserrat;
     font-size: 15px;
     @media (max-width: 565px) {
@@ -26,14 +26,14 @@
   }
 }
 .card-body {
-  background-color: #F6F6F6;
+  background-color: $white;
   margin-left: 24px;
   p {
     line-height: 22px;
   }
 }
 .faq-nav {
-  background-color: #F6F6F6;
+  background-color: $white;
   @media (max-width: 565px) {
     background-color: #DDDDDD;
     margin: 32px 16px 0px 16px;

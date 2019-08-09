@@ -24,10 +24,24 @@
 
 <%= render 'shared/contact_form' %>
 
-<%= render 'shared/services' %>
+<script>
+  function initMap() {
+    var map = new google.maps.Map(document.getElementById('map'), {
+        center: { lat: 51.512, lng: -0.086 },
+        zoom: 14
+    });
+    var marker = new google.maps.Marker({position: { lat: 51.512, lng: -0.086 }, map: map});
+}
+</script>
 
-<!-- <div id="map-margin">
-  <iframe width='100%' height='450px' id='mapcanvas' src='https://maps.google.com/maps?q=20%20birchin%20lane,%20london&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed' frameborder='0' scrolling='no' marginheight='0' marginwidth='0'><div class="zxos8_gm"><a rel="nofollow"  href="">here</a></div><div style='overflow:hidden;'><div id='gmap_canvas'></div></div></iframe>
-</div> -->
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4i7cYZy6hOZBLv0-XrOOBTW41VSRSv7M&callback=initMap">
+</script>
+
+<div>
+  <div id="map" style="width: 100%; height: 400px;"></div>
+</div>
+
+<%= render 'shared/services' %>
 
 <%= render 'shared/proven_expertise' %>

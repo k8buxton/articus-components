@@ -1,11 +1,11 @@
 td {
   font-size: 12px;
   padding: 0 12px 0 0;
-  color: #093031;
+  color: $bottle;
 }
 td a:hover {
   text-decoration: underline;
-  color: #093031;
+  color: $bottle;
 }
 .team-lines {
   @media (max-width: 767px) {
@@ -16,13 +16,13 @@ td a:hover {
 }
 .team h3 {
   margin: 1.5rem 0 0rem 0;
-  color: #093031;
+  color: $bottle;
   font-family: tiempos headline;
 }
 .team h4 {
   font-size: 14px;
 }
 .team p {
-  color: #093031;
+  color: $bottle;
   font-size: 12px;
 }

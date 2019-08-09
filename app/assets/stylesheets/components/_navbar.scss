@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #093031;
+  background-color: $bottle;
   padding: 0px;
   width: 100%;
   font-family: Montserrat;
@@ -18,15 +18,14 @@ li.dropdown:hover > .dropdown-menu {
   }
 }
 .navbar-nav .dropdown-menu {
-  background-color: #093031;
+  background-color: $bottle;
 }
 .navbar-nav .dropdown-item {
-  color: white;
+  color: $white;
   font-size: 12px;
   letter-spacing: 0.8px;
   font-weight: 100;
   transition: .2s ease-in-out;
-  // text-transform: uppercase;
   padding: 0.5rem 2rem 0.5rem 1.4rem;
   @media (max-width: 991px) {
     padding: 0.6rem 2rem;
@@ -34,7 +33,7 @@ li.dropdown:hover > .dropdown-menu {
     color: rgba(255,255,255,.5);
   }
   &:hover {
-    background-color: #124348;
+    background-color: $cyprus;
     color: #DDDDDD;
     transition: .2s ease-in-out;
   }
@@ -62,7 +61,7 @@ li.dropdown:hover > .dropdown-menu {
   border-left: 0.5px solid rgba(255,255,255,0.5);
 }
 .navbar-expand-lg .navbar-nav .nav-link {
-  color: white !important;
+  color: $white !important;
   letter-spacing: 0.7px;
   padding: 5px 8px 5px 14px;
   font-size: 12px;
@@ -100,7 +99,7 @@ li.dropdown:hover > .dropdown-menu {
   border: none;
 }
 .navbar-dark .navbar-toggler {
-  border-color: #093031;
+  border-color: $bottle;
   outline: 0;
 }
 .cursor-pointer:hover {
