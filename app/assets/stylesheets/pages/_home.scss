@@ -76,19 +76,18 @@ a {
   @media (max-width: 767px) {
     max-width: 70%;
   }
-  p {
+  h1 {
     color: $white;
-    // Dune (White)
     font-family: Montserrat;
     letter-spacing: 0.7px;
     margin-top: 32px;
     font-size: 13px;
+    line-height: 1.5;
   }
   h3 {
     letter-spacing: 1px;
     margin-top: 14px;
     color: $white;
-    // Dune (White)
     @media (max-width: 565px) {
       font-size: 16px;
       letter-spacing: 0.8px;
@@ -107,11 +106,15 @@ a {
     margin: 72px 0 56px 0;
   }
 }
-.homepage-heading h1 {
+.homepage-heading h1,
+.homepage-heading h2 {
   margin-top: 30px;
   text-align: center;
+  font-size: 28px;
+  color: #191F1F;
 }
-.homepage-heading h1.back-line {
+.homepage-heading h1.back-line,
+.homepage-heading h2.back-line {
     position: relative;
     z-index: 1;
   &:before {
