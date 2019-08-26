@@ -28,6 +28,7 @@ li.dropdown:hover > .dropdown-menu {
   transition: .2s ease-in-out;
   padding: 0.5rem 2rem 0.5rem 1.4rem;
   @media (max-width: 991px) {
+    font-size: 13px;
     padding: 0.6rem 2rem;
     border-top: 0.5px solid rgba(255, 255, 255, 0.5);
     color: rgba(255,255,255,.5);
@@ -54,6 +55,7 @@ li.dropdown:hover > .dropdown-menu {
   text-transform: uppercase;
   font-size: 12px;
   @media (max-width: 991px) {
+    font-size: 13px;
     padding: 10px 0;
   }
 }
