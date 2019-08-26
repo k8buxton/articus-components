@@ -7,6 +7,7 @@ h1 {
   font-family: tiempos_headline;
   letter-spacing: 0.5px;
   color: $shark;
+  line-height: 36px;
   @media (max-width: 575px) {
     font-size: 22px;
   }
@@ -26,6 +27,8 @@ h3 {
 h4 {
   font-size: 15px;
   font-family: Montserrat;
+  font-weight: 300;
+  line-height: 24px;
 }
 h5 {
   text-transform: uppercase;
@@ -44,6 +47,9 @@ h6 {
 p {
   font-size: 13px;
   font-family: Open Sans;
+  @media (max-width: 565px) {
+    font-size: 14px;
+  }
 }
 li {
   font-size: 12px;
@@ -61,7 +67,7 @@ a {
   background-size: cover;
   background-position: center;
   display: flex;
-  height: 60vh;
+  height: 70vh;
   background-image: linear-gradient(rgba(25,31,31,0.65),rgba(25,31,31,0.65)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);
 }
 .banner .banner-container {
@@ -89,7 +95,7 @@ a {
     margin-top: 14px;
     color: $white;
     @media (max-width: 565px) {
-      font-size: 16px;
+      font-size: 18px;
       letter-spacing: 0.8px;
     }
   }
@@ -122,7 +128,7 @@ a {
       content:"";
       margin: 0 auto;
       position: absolute;
-      top: 50%; left: 0; right: 0; bottom: 0;
+      top: 48%; left: 0; right: 0; bottom: 0;
       z-index: -1;
   }
   span {
