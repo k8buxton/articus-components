@@ -43,8 +43,6 @@ Rails.application.routes.draw do
   get 'introducers', to: 'pages#introducers'
   get 'our-team', to: 'pages#team'
   get 'privacy-policy', to: 'pages#privacy_policy'
-  get 'home-sample', to: 'pages#home_sample'
-  get 'home-sample-2', to: 'pages#home_sample_2'
 
   # https://stackoverflow.com/questions/4479233/static-pages-in-ruby-on-rails
 
