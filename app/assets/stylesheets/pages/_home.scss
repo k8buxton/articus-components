@@ -76,7 +76,10 @@ a {
   background-size: cover;
   background-position: center;
   display: flex;
-  height: calc(100vh - 149px);;
+  height: calc(100vh - 149px);
+  @media (max-width: 991px) {
+    height: calc(100vh - 84px);
+  }
   background-image: linear-gradient(rgba(25,31,31,0.65),rgba(25,31,31,0.65)), url(https://res.cloudinary.com/ddwuu1y0i/image/upload/v1562162210/mews-banner.jpg);
 }
 .banner .banner-container {
