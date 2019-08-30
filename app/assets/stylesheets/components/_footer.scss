@@ -58,7 +58,6 @@
 }
 .center-footer-inner {
   @media (min-width: 768px) {
-    // margin: 0;
     position: absolute;
     top: 50%; -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -67,6 +66,9 @@
 .footer-company-details {
   p {
     font-size: 10px;
+    @media (min-width: 1200px) {
+      font-size: 12px;
+    }
   }
   a {
     text-decoration: underline;

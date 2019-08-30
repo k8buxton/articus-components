@@ -17,12 +17,18 @@ h2 {
   font-family: tiempos_headline;
   letter-spacing: .5px;
   margin-bottom: 18px;
+  @media (min-width: 1200px) {
+    font-size: 28px;
+  }
 }
 h3 {
   font-size: 18px;
   font-family: Montserrat;
   margin: .5rem 0;
   font-weight: 300;
+  @media (min-width: 1200px) {
+    font-size: 23px;
+  }
 }
 h4 {
   font-size: 15px;
@@ -48,6 +54,9 @@ p {
   font-size: 13px;
   font-family: Open Sans;
   @media (max-width: 565px) {
+    font-size: 14px;
+  }
+  @media (min-width: 1200px) {
     font-size: 14px;
   }
 }
@@ -89,6 +98,9 @@ a {
     margin-top: 32px;
     font-size: 13px;
     line-height: 1.5;
+    @media (min-width: 1200px) {
+      font-size: 18px;
+    }
   }
   h3 {
     letter-spacing: 1px;
@@ -98,12 +110,18 @@ a {
       font-size: 18px;
       letter-spacing: 0.8px;
     }
+    @media (min-width: 1200px) {
+      margin-top: 16px;
+    }
   }
 }
 .homepage-logo {
   width: 220px;
   @media (max-width: 565px) {
     width: 180px;
+  }
+  @media (min-width: 1200px) {
+    width: 280px;
   }
 }
 .homepage-heading {
