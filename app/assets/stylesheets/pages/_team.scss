@@ -2,6 +2,9 @@ td {
   font-size: 12px;
   padding: 0 12px 0 0;
   color: $bottle;
+  @media (min-width: 1200px) {
+    font-size: 14px;
+  }
 }
 td a:hover {
   text-decoration: underline;
@@ -14,15 +17,22 @@ td a:hover {
     width: 100%;
   }
 }
-.team h3 {
-  margin: 1.5rem 0 0rem 0;
-  color: $bottle;
-  font-family: tiempos headline;
+.team {
+  h3 {
+    margin: 1.5rem 0 0rem 0;
+    color: $bottle;
+    font-family: tiempos headline;
+  }
+  h6 {
+    font-size: 12px;
+    @media (min-width: 1200px) {
+      font-size: 14px;
+    }
+  }
 }
-.team h4 {
-  font-size: 14px;
-}
-.team p {
-  color: $bottle;
-  font-size: 12px;
+.team-bio p {
+  @media (min-width: 1200px) {
+    line-height: 28px;
+    margin-top: 16px;
+  }
 }

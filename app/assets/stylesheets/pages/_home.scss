@@ -35,6 +35,9 @@ h4 {
   font-family: Montserrat;
   font-weight: 300;
   line-height: 24px;
+  @media (min-width: 1200px) {
+    font-size: 18px;
+  }
 }
 h5 {
   text-transform: uppercase;
@@ -68,9 +71,6 @@ a {
   &:hover {
     text-decoration: none;
   }
-}
-.paragraph {
-  line-height: 22px;
 }
 .banner {
   background-size: cover;
@@ -162,5 +162,5 @@ a {
 }
 .title {
   font-weight: bold;
-  margin: 32px 0;
+  margin: 48px 0 32px 0 !important;
 }
