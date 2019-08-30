@@ -11,9 +11,13 @@ input#enquiry {
    padding: 0px 12px 60px 12px;
 }
 .contact-page-form {
+  padding: 3rem 0;
   background-color: $bottle;
   h4 {
     text-transform: uppercase;
     color: $white;
+  }
+  @media (min-width: 1200px) {
+    padding: 5rem 0;
   }
 }
