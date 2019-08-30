@@ -43,6 +43,9 @@
   padding: 6px 14px;
   font-size: 12px;
   text-transform: uppercase;
+  @media (min-width: 1200px) {
+    font-size: 13px;
+  }
 }
 .sub-nav li:first-child {
     border-left: 0;

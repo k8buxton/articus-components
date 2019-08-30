@@ -58,6 +58,9 @@ li.dropdown:hover > .dropdown-menu {
     font-size: 13px;
     padding: 10px 0;
   }
+  @media (min-width: 1200px) {
+    font-size: 13px;
+  }
 }
 .nav-link i {
   border-left: 0.5px solid rgba(255,255,255,0.5);
