@@ -128,7 +128,7 @@ a {
   }
 }
 .homepage-heading {
-  margin: 80px 0;
+  margin: 100px 0;
   @media (max-width: 565px) {
     margin: 72px 0 56px 0;
   }
@@ -139,6 +139,9 @@ a {
   text-align: center;
   font-size: 28px;
   color: #191F1F;
+  @media (min-width: 1200px) {
+    font-size: 32px;
+  }
 }
 .homepage-heading h1.back-line,
 .homepage-heading h2.back-line {
