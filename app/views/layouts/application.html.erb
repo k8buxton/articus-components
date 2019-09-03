@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <% if controller_name == 'pages' %>
-      <title>Articus Finance | Mortgage Deals For HNW and Complex Clients</title>
-      <meta name="description" content='Articus Finance sources the best mortgage deals for global clients. We are a London based team of specialist mortgage brokers, experienced in securing high value mortgages.'>
+    <% if params[:controller] == 'pages' && %w(about blog guides blog_show).include?(params[:action])
+           %>
+      <%= display_meta_tags image_src: "https://res.cloudinary.com/ddwuu1y0i/image/upload/v1567506108/Screen_Shot_2019-09-03_at_11.21.04.png" %>
     <% else %>
-      <%= display_meta_tags site: 'Articus Finance' %>
+      <%= display_meta_tags site: 'Articus Finance',
+                            image_src: "https://res.cloudinary.com/ddwuu1y0i/image/upload/v1567506108/Screen_Shot_2019-09-03_at_11.21.04.png" %>
     <% end %>
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
