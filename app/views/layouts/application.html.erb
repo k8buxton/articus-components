@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <% if params[:controller] == 'pages' && %w(about blog guides blog_show).include?(params[:action])
            %>
-      <%= display_meta_tags image_src: "https://res.cloudinary.com/ddwuu1y0i/image/upload/v1567506108/Screen_Shot_2019-09-03_at_11.21.04.png" %>
+      <%= display_meta_tags image_src: "app/assets/images/meta_image.png" %>
     <% else %>
       <%= display_meta_tags site: 'Articus Finance',
-                            image_src: "https://res.cloudinary.com/ddwuu1y0i/image/upload/v1567506108/Screen_Shot_2019-09-03_at_11.21.04.png" %>
+                            image_src: "app/assets/images/meta_image.png" %>
     <% end %>
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
