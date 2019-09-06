@@ -54,7 +54,7 @@ Rails.application.routes.draw do
   get 'our-team', to: 'pages#team'
   get 'privacy-policy', to: 'pages#privacy_policy'
 
-  # https://stackoverflow.com/questions/4479233/static-pages-in-ruby-on-rails
+  get "pages/download_pdf"
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

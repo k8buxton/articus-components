@@ -7,7 +7,7 @@ h1 {
   font-family: tiempos_headline;
   letter-spacing: 0.5px;
   color: $shark;
-  line-height: 36px;
+  line-height: 38px;
   @media (max-width: 575px) {
     font-size: 22px;
   }
@@ -137,7 +137,7 @@ a {
 .homepage-heading h2 {
   margin-top: 30px;
   text-align: center;
-  font-size: 28px;
+  font-size: 30px;
   color: #191F1F;
   @media (min-width: 1200px) {
     font-size: 32px;
@@ -154,13 +154,13 @@ a {
       position: absolute;
       top: 48%; left: 0; right: 0; bottom: 0;
       z-index: -1;
-      @media (max-width: 565px) {
+      @media (max-width: 767px) {
         border-top: none;
       }
   }
   span {
       background: $white;
-      padding: 0 10px;
+      padding: 0 16px;
   }
 }
 .title {
