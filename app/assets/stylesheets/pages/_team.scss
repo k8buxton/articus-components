@@ -31,8 +31,11 @@ td a:hover {
   }
 }
 .team-bio p {
+  line-height: 22px;
   @media (min-width: 1200px) {
     line-height: 28px;
-    margin-top: 16px;
+  }
+  @media (max-width: 767px) {
+    margin-top: 20px;
   }
 }

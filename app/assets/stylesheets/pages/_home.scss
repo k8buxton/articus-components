@@ -56,9 +56,9 @@ h6 {
 p {
   font-size: 13px;
   font-family: Open Sans;
-  @media (max-width: 565px) {
-    font-size: 14px;
-  }
+  // @media (max-width: 565px) {
+  //   font-size: 14px;
+  // }
   @media (min-width: 1200px) {
     font-size: 14px;
   }
@@ -159,8 +159,10 @@ a {
       }
   }
   span {
-      background: $white;
+    background: $white;
+    @media (min-width: 768px) {
       padding: 0 16px;
+    }
   }
 }
 .title {
