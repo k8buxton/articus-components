@@ -1,4 +1,4 @@
-<div class="container guide-home-container mb-5">
+<!-- <div class="container guide-home-container mb-5">
   <div class="row">
     <div class="col-6 col-md-3 guide-padding">
       <div class="guide-card">
@@ -45,5 +45,53 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
+<div class="container guide-home-container mb-5">
+  <div class="row">
+    <div class="col-6 col-md-3 guide-padding">
+      <div class="guide-card">
+        <%= link_to guide_show_path do %>
+          <img src="https://res.cloudinary.com/ddwuu1y0i/image/upload/v1568448674/Overcoming_the_challenges_of_the_1_million_plus_mortgage_v4_copy.png">
+        <% end %>
+        <h5 class="text-center">£1 million plus mortgages</h5>
+        <div class="btn-container">
+          <%= link_to "Download now", guide_show_path, class: "home-btn light-btn" %>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 col-md-3 guide-padding">
+      <div class="guide-card">
+        <%= link_to guide_show_path do %>
+          <img src="https://res.cloudinary.com/ddwuu1y0i/image/upload/v1568448674/Navigating_the_complex_world_of_buy_to_let_property_v4.png">
+        <% end %>
+        <h5 class="text-center">Buy to let</h5>
+        <div class="btn-container">
+          <%= link_to "Download now", guide_show_path, class: "home-btn light-btn" %>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 col-md-3 guide-padding">
+      <div class="guide-card">
+        <%= link_to guide_show_path do %>
+          <img src="https://res.cloudinary.com/ddwuu1y0i/image/upload/v1568448674/Protecting_your_estate-_insurance_for_high_net_worth_individuals_v4_copy.png">
+        <% end %>
+        <h5 class="text-center">Insurance</h5>
+        <div class="btn-container">
+          <%= link_to "Download now", guide_show_path, class: "home-btn light-btn" %>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 col-md-3 guide-padding">
+      <div class="guide-card">
+        <%= link_to guide_show_path do %>
+          <img src="https://res.cloudinary.com/ddwuu1y0i/image/upload/v1568448674/Using_short_term_finance_to_your_advantage_v4_copy.png">
+        <% end %>
+        <h5 class="text-center">Bridging</h5>
+        <div class="btn-container">
+          <%= link_to "Download now", guide_show_path, class: "home-btn light-btn" %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
